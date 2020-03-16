@@ -1,0 +1,78 @@
+{% extends 'layout.html' %}
+{% load static %}
+{% load i18n %}
+{% block content %}
+
+<div class="main-container">
+    <!-- About us -->
+    <section class="iq-contact wrapper">
+        <div class="container-fluid h-100">
+            <div class="row row-eq-height h-100">
+                <div class="col-md-3 purple-bg">
+                    <div class="iq-objects">
+                        <span class="iq-objects-01">
+                            <img class="img-fluid" src="{% static 'images/01.png' %}" alt="drive">
+                        </span>
+                    </div>
+                </div>
+                <div class="col-md-9 main-content align-self-center">
+                    <div id="boxscroll" class="inner-box">
+                        <div class="iq-plr-40">
+                            <div class="row">
+                            <div class="col-md-12">
+                                <div class="main-title iq-mb-15">
+                                    <small>{% trans 'My Contact' %}</small>
+                                <h1 class="display-4 iq-tw-8 iq-font-purple">{% trans 'Contact Me' %}</h1>
+                            </div>
+                            </div> 
+                            <div class="col-md-4">
+                                <iframe width="100%" height="253" src="https://maps.google.com/maps?width=100%&amp;height=253&amp;hl=en&amp;coord=36.75772811379373,+3.0202102661132817&amp;q=Ben%20Aknoun+(My%20location)&amp;ie=UTF8&amp;t=&amp;z=16&amp;iwloc=B&amp;output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"><a href="https://www.maps.ie/coordinates.html">find my coordinates</a></iframe>
+                            </div>
+                                <div class="col-md-8">
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <h3 class="title iq-tw-8 text-uppercase iq-mt-0">{% trans 'Get in Touch' %}</h3>
+                                          <ul class="contact-info">
+                                            <li><i class="ti-location-pin"></i> <p>{%trans 'Algeria,Algiers,Ben Akoun' %}</p> </li>
+                                            <li><i class="ti-marker-alt"></i> <p><a href="mailto:logovimike@gmail.com" >logovimike@gmail.com</a> </p></li>
+                                            <li><i class="ti-mobile"></i> <p>+213 540 11 32 97</p></li>
+                                            <li><i class="ti-printer"></i> <p>(098)-765-4321 </p></li>
+                                          </ul>
+                                    </div>
+                                </div>
+                            <div class="iq-get-in">
+                            <div id="formmessage">Success/Error Message Goes Here</div>
+                            <form class="form-horizontal" id="contactform" method="post" action="https://iqonic.design/themes/profyl/php/contact-form.php">
+                                <div class="contact-form row">
+                                    <div class="section-field col-md-4">
+                                        <input id="name" type="text" placeholder="{% trans 'Name' %}*" name="name">
+                                    </div>
+                                    <div class="section-field col-md-4">
+                                        <input type="email" placeholder="{% trans 'Email' %}*" name="email">
+                                    </div>
+                                    <div class="section-field col-md-4">
+                                        <input type="text" placeholder="{%trans 'Phone' %}*" name="phone">
+                                    </div>
+                                    <div class="section-field textarea col-md-12">
+                                        <textarea class="input-message" placeholder="{% trans 'Comment' %}*" rows="5" name="message"></textarea>
+                                    </div>
+                                    <div class="col-md-12">
+                                    <button id="submit" name="submit" type="submit" value="Send" class="button iq-mt-30">{% trans 'Send Message' %}</button>
+                                    </div>
+                                </div>
+                            </form>
+                            <div id="ajaxloader" style="display:none"><img class="center-block mt-30 mb-30" src="{% static 'images/ajax-loader.html'%}" alt="#"></div>
+                        </div>
+                            </div>
+                        </div>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- About Us End -->
+</div>
+
+{%endblock%}

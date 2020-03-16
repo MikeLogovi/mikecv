@@ -1,0 +1,210 @@
+{% load static %}
+{% load i18n %}
+{% url 'home' as home %}
+{% url 'about' as about%}
+{% url 'services' as services%}
+{% url 'contact' as contact%}
+{% url 'resume' as resume%}
+{% url 'portfolio' as portfolio%}
+<!DOCTYPE html>
+<html lang="en">
+
+
+<!-- Mirrored from iqonic.design/themes/profyl/simple-color/ by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 13 Mar 2020 01:28:16 GMT -->
+<head>
+    <meta charset="utf-8">
+    <meta name="keywords" content="HTML5 Template" />
+    <meta name="description" content="Profyl - Personal Vcard Resume HTML Template" />
+    <meta name="author" content="iqonicthemes.in" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+  
+    <title>Mike LOGOVI</title>
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="{% static 'images/favicon.ico' %}" />
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600&amp;Raleway:400,500,600,700,800" rel="stylesheet">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" type="text/css" href="{% static 'css/bootstrap.min.css' %}">
+
+    <!-- Themify Fonts -->
+    <link rel="stylesheet" type="text/css" href="{% static 'css/themify-icons.css' %}">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" type="text/css" href="{% static 'css/font-awesome.min.css' %}">
+
+    <!-- Magnific Popup -->
+    <link rel="stylesheet" type="text/css" href="{% static 'css/magnific-popup/magnific-popup.css' %}" />
+
+    <!-- owl-carousel -->
+    <link rel="stylesheet" type="text/css" href="{% static 'css/owl-carousel/owl.carousel.css' %}" />
+
+    <!-- Style CSS -->
+    <link rel="stylesheet" type="text/css" href="{% static 'css/style.css' %}">
+
+    <!-- Responsive CSS -->
+    <link rel="stylesheet" type="text/css" href="{% static 'css/responsive.css' %}">
+
+    <!-- Style customizer (Remove these two lines please) -->
+    <link rel="stylesheet" href="#" data-style="styles">
+    <link rel="stylesheet" href="{% static 'css/style-customizer.css' %}" />
+
+    <!-- custom style -->
+    <link rel="stylesheet" href="{% static 'css/custom.css' %}" />
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-110149418-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-110149418-1');
+</script>
+
+</head>
+
+<body>
+
+    <!-- loading -->
+
+    <div id="loading" class="purple-bg">
+        <div id="loading-center">
+            <div data-loader="spinner"></div>
+        </div>
+    </div>
+
+    <!-- loading End -->
+
+
+    <!-- Header  -->
+    <header class="header">
+        <div class="container-fluid">
+            <div class="row">
+                <nav class="navbar fixed-top navbar-expand-lg navbar-light white-bg">
+                    <div class="col-md-3 purple-bg">
+                        <a class="navbar-brand" href="{% url 'home'%}"><img src="{% static 'images/logo.png' %}" class="img-fluid" alt="logo"></a>
+                    </div>
+                    <div class="col-md-9">
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="ti-menu"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <ul class="navbar-nav mr-auto w-100 justify-content-end">
+                                <li class="nav-item {% if request.path == home %}active{% endif %}">
+                                    <a class="nav-link" data-type="page-transition" href="{% url 'home'%}">{% trans 'Home' %}</a>
+                                </li>
+                                <li class="nav-item  {% if request.path == about %}active{% endif %}" >
+                                    <a class="nav-link" data-type="page-transition" href="{% url 'about'%}">{% trans 'About me' %}</a>
+                                </li>
+                                <li class="nav-item  {% if request.path == resume %}active{% endif %}">
+                                    <a class="nav-link" data-type="page-transition" href="{% url 'resume'%}">{% trans 'Resume' %}</a>
+                                </li>
+                                <li class="nav-item  {% if request.path == services %}active{% endif %}">
+                                    <a class="nav-link" data-type="page-transition" href="{% url 'services'%}">{% trans 'Services' %}</a>
+                                </li>
+                                <li class="nav-item  {% if request.path == portfolio %}active{% endif %}">
+                                    <a class="nav-link" data-type="page-transition" href="{% url 'portfolio'%}">{% trans 'Portfolio' %}</a>
+                                </li>
+                                <li class="nav-item  {% if request.path == contact %}active{% endif %}">
+                                    <a class="nav-link" data-type="page-transition" href="{% url 'contact'%}">{% trans 'Contact' %}</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+         {% block content %}
+         {% endblock %}
+    <!-- Footer -->
+    <footer>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-3 purple-bg">
+                    <div class="footer-copyright text-white">Copyright @ <span id="copyright"> <script>document.getElementById('copyright').appendChild(document.createTextNode(new Date().getFullYear()))</script></span> <a class="text-white" href="#">| Mike LOGOVI.</a></div>
+                </div>
+                <div class="col-md-9">
+                    <ul class="follow-us pull-right">
+                        <li>{% trans 'Follow Me' %} :</li>
+                        <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                        <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                        <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                        <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                        <li><a href="#"><i class="fa fa-pinterest"></i></a></li>
+                        <li><a href="#"><i class="fa fa-dribbble"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- Footer End -->
+
+    <!-- style-customizer -->
+    <div class="iq-customizer closed" style="max-height:230px">
+        <div class="buy-button"> <a class="opener" href="#"><i class="fa fa-spinner fa-spin"></i></a> </div>
+        {% get_current_language as LANGUAGE_CODE%}
+        <div class="clearfix content-chooser">
+            <form method="post" action="{% url 'set_language' %}">
+                {% csrf_token  %}
+                <input type="hidden" name="next" value="{{redirect_to}}"/>
+                <h3 class="iq-font-black">{% trans 'Choose your Language' %}</h3>
+                <p>{% trans 'Feel free to choose another available language' %}</p>
+                 <select name="language" class="form-control">
+                     {% get_available_languages as LANGUAGES %}
+                     {% get_language_info_list for LANGUAGES as languages %}
+                     {% for language in languages %}
+                        <option value="{{language.code}}" {% if language.code == LANGUAGE_CODE%} selected {% endif %}>
+                             {{language.name}} ({{language.code}})
+                        </option>
+                     {% endfor %}
+                 </select>                
+            <button type="submit" target="_blank" class="button" href="#">{% trans 'Send' %}</a>
+            </form>
+            
+        </div>
+    </div>
+    <!-- style-customizer END -->
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script type="text/javascript" src="{% static 'js/jquery-min.js' %}"></script>
+    <script type="text/javascript" src="{% static 'js/popper.min.js' %}"></script>
+    <script type="text/javascript" src="{% static 'js/bootstrap.min.js' %}"></script>
+
+    <!-- jquery-appear -->
+    <script type="text/javascript" src="{%static 'js/jquery.appear.js' %}"></script>
+
+    <!-- owl-carousel -->
+    <script type="text/javascript" src="{% static 'js/owl-carousel/owl.carousel.min.js' %}"></script>
+
+    <!-- jquery-typer -->
+    <script type="text/javascript" src="{% static 'js/jquery.typer.js' %}"></script>
+
+    <!-- jquery-isotope -->
+    <script type="text/javascript" src="{% static 'js/isotope.pkgd.min.js' %}"></script>
+
+    <!-- Magnific-Popup -->
+    <script type="text/javascript" src="{% static 'js/magnific-popup/jquery.magnific-popup.min.js' %}"></script>
+
+    <!-- jquery Nicescroll -->
+    <script type="text/javascript" src="{% static 'js/jquery.nicescroll.min.js' %}"></script>
+
+    <!-- jquery Retina -->
+    <script type="text/javascript" src="{% static 'js/retina.min.js' %}"></script>
+
+    <!-- Style Customizer -->
+    <script type="text/javascript" src="{% static 'js/style-customizer.js' %}"></script>
+
+    <!-- Custom -->
+    <script type="text/javascript" src="{% static 'js/custom.js' %}"></script>
+
+</body>
+
+
+</html>

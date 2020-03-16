@@ -1,0 +1,224 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-03-16 02:45+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#: mikecv/urls.py:26
+msgid "admin/"
+msgstr "administration/"
+
+#: personal/templates/404.html:32
+msgid "we are sorry, but the page you requested was not found"
+msgstr "Nous sommes désolé,la page recherchée est introuvable"
+
+#: personal/templates/404.html:33
+msgid "Go Home"
+msgstr "Acceuil"
+
+#: personal/templates/404.html:34
+
+msgid "Contact us"
+msgstr "Contactez moi"
+
+#: personal/templates/about.html:28
+msgid "Know About Me"
+msgstr "En savoir plus sur  moi"
+
+#: personal/templates/about.html:29
+msgid "About Me"
+msgstr "A propos de moi"
+
+#: personal/templates/about.html:31
+msgid "Hello! I’m Mike.  here is piece of information about me "
+msgstr ""
+"Salut! Moi c'est Mike.Voici quelques informations personnelles sur moi."
+
+#: personal/templates/about.html:33
+msgid "Last name"
+msgstr "Nom"
+
+#: personal/templates/about.html:34
+msgid "First name"
+msgstr "Prénoms"
+
+#: personal/templates/about.html:35
+msgid "Date of birth"
+msgstr "Date de naissance"
+
+#: personal/templates/about.html:37 personal/templates/contact.html:54
+msgid "Phone"
+msgstr "Numéro de téléphone"
+
+#: personal/templates/about.html:38
+msgid "Address"
+msgstr "Adresse"
+
+#: personal/templates/about.html:39
+msgid "Nationality"
+msgstr "Nationalité"
+
+#: personal/templates/about.html:39
+msgid "Togolese"
+msgstr "Togolais"
+
+#: personal/templates/about.html:40
+msgid "Gender"
+msgstr "Genre"
+
+#: personal/templates/about.html:40
+msgid "Male"
+msgstr "Homme"
+
+#: personal/templates/about.html:41
+msgid "Marital Status"
+msgstr "Situation matrimoniale"
+
+#: personal/templates/about.html:41
+msgid "Single"
+msgstr "Célibataire"
+
+#: personal/templates/about.html:42
+msgid "Work Status"
+msgstr "Profession"
+
+#: personal/templates/about.html:42
+msgid "Student"
+msgstr "Étudiant"
+
+#: personal/templates/about.html:44 personal/templates/layout.html:103
+msgid "Resume"
+msgstr "Mon cursus"
+
+#: personal/templates/about.html:45
+msgid "hire me"
+msgstr "Contactez moi"
+
+#: personal/templates/contact.html:24
+#, fuzzy
+#| msgid "Contact"
+msgid "My Contact"
+msgstr "Contact"
+
+#: personal/templates/contact.html:25
+msgid "Contact Me"
+msgstr "Contactez moi"
+
+#: personal/templates/contact.html:34
+msgid "Get in Touch"
+msgstr "Entrez en contact avec moi"
+
+#: personal/templates/contact.html:36
+msgid "Algeria,Algiers,Ben Akoun"
+msgstr "Algérie,Alger,Ben Aknoun"
+
+#: personal/templates/contact.html:48
+msgid "Name"
+msgstr "Nom"
+
+#: personal/templates/contact.html:51
+msgid "Email"
+msgstr "Email"
+
+#: personal/templates/contact.html:57
+msgid "Comment"
+msgstr "Message"
+
+#: personal/templates/contact.html:60
+msgid "Send Message"
+msgstr "Envoyez Message"
+
+#: personal/templates/index.html:27
+msgid "Hello"
+msgstr "Salut"
+
+#: personal/templates/index.html:27
+msgid "I am Mike LOGOVI"
+msgstr "Je m'appelle Mike LOGOVI"
+
+#: personal/templates/index.html:30
+msgid ""
+"Autonomous, self-taught and disciplined, perseverance is what I share every "
+"day.Passionate and open, I love programming and thanks to it I can express "
+"all my expressions.Far from being a geek anyway, I really have a social "
+"life, I am a leader and communication is my strong point."
+msgstr ""
+"Autonome,autodidacte et discipliné,la persévérance est mon partage de tous "
+"les jours. Passionné et ouvert ,j'aime beaucoup la programmation et grâce à "
+"elle je peux exprimer toutes mes expressions.Loin d'être quand même un geek,"
+"j'ai vraiment une vie sociale,je suis un leader et la communication est mon "
+"point fort"
+
+#: personal/templates/index.html:32
+msgid "Download my CV"
+msgstr "Télécharger mon CV"
+
+#: personal/templates/layout.html:97
+msgid "Home"
+msgstr "Acceuil"
+
+#: personal/templates/layout.html:100
+msgid "About me"
+msgstr "A propos de moi"
+
+#: personal/templates/layout.html:106
+msgid "Services"
+msgstr "Mes services"
+
+#: personal/templates/layout.html:109
+msgid "Portfolio"
+msgstr "Portfolio"
+
+#: personal/templates/layout.html:112
+msgid "Contact"
+msgstr "Contact"
+
+#: personal/templates/layout.html:133
+msgid "Follow Me"
+msgstr "Suivez moi"
+
+#: personal/templates/layout.html:155
+msgid "Choose your Language"
+msgstr "Choisissez votre Langue"
+
+#: personal/templates/layout.html:156
+msgid "Feel free to choose another available language"
+msgstr "Sentez vous libre de choisir une autre langue parmi celles existantes"
+
+#: personal/templates/layout.html:166
+msgid "Send"
+msgstr "Envoyez"
+
+#: personal/urls.py:7
+msgid "about"
+msgstr "a-propos"
+
+#: personal/urls.py:8
+msgid "resume"
+msgstr "mon-cursus"
+
+#: personal/urls.py:9
+msgid "services"
+msgstr "mes-services"
+
+#: personal/urls.py:10
+msgid "portfolio"
+msgstr "portfolio"
+
+#: personal/urls.py:11
+msgid "contact"
+msgstr "contact"
