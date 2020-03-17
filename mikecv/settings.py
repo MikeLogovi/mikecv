@@ -148,4 +148,4 @@ if os.getcwd() == '/app':
 
     #Allow all host headers
     ALLOWED_HOSTS = ['mikelogovi.herokuapp.com']
-    DEBUG = True
+    DEBUG = False
