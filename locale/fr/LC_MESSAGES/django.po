@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-03-16 02:45+0100\n"
+"POT-Creation-Date: 2020-03-17 06:15+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -18,9 +18,100 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
-#: mikecv/urls.py:26
+#: mikecv/urls.py:30
 msgid "admin/"
 msgstr "administration/"
+
+#: personal/admin.py:17 personal/templates/about.html:44
+#: personal/templates/layout.html:103 personal/templates/resume.html:25
+msgid "Resume"
+msgstr "Mon cursus"
+
+#: personal/admin.py:33
+msgid "Skill"
+msgstr "Compétence"
+
+#: personal/admin.py:34
+msgid "Skills"
+msgstr "Compétences"
+
+#: personal/forms.py:5
+msgid "Please give a name with more than 2 characters"
+msgstr "Veuilley donner un nom qvec plus de 2 caractères"
+
+#: personal/forms.py:6
+msgid "Please give a valid email"
+msgstr "Veuillez donnez une adresse e-mail valide"
+
+#: personal/models.py:8 personal/models.py:21 personal/models.py:26
+#: personal/models.py:31 personal/models.py:38 personal/models.py:52
+
+msgid "name"
+msgstr "Nom"
+
+#: personal/models.py:10
+msgid "Categories of resume"
+msgstr "Categories de cursus"
+
+#: personal/models.py:17
+msgid "endTime"
+msgstr "date de fin"
+
+#: personal/models.py:18
+msgid "resume category"
+msgstr "categorie de cursus"
+
+#: personal/models.py:23
+msgid "Categories of skill"
+msgstr "Catégories de compétences"
+
+#: personal/models.py:27
+msgid "level"
+msgstr "Niveau"
+
+#: personal/models.py:28
+msgid "Skill Category"
+msgstr "Catégorie de compétence"
+
+#: personal/models.py:32 personal/models.py:46 personal/models.py:58
+msgid "picture"
+msgstr "photo"
+
+#: personal/models.py:33 personal/models.py:45
+msgid "description"
+msgstr "description"
+
+#: personal/models.py:35
+
+msgid "Service"
+msgstr "Mes services"
+
+#: personal/models.py:39
+msgid "slug"
+msgstr "slug"
+
+#: personal/models.py:44
+msgid "title"
+msgstr "titre"
+
+#: personal/models.py:47
+msgid "appurl"
+msgstr "application url"
+
+#: personal/models.py:48 personal/templates/layout.html:109
+msgid "Portfolio"
+msgstr "Portfolio"
+
+#: personal/models.py:53
+#, fuzzy
+#| msgid "Email"
+msgid "email"
+msgstr "Email"
+
+#: personal/models.py:54
+
+msgid "comment"
+msgstr "Commentaire"
 
 #: personal/templates/404.html:32
 msgid "we are sorry, but the page you requested was not found"
@@ -31,7 +122,6 @@ msgid "Go Home"
 msgstr "Acceuil"
 
 #: personal/templates/404.html:34
-
 msgid "Contact us"
 msgstr "Contactez moi"
 
@@ -60,7 +150,7 @@ msgstr "Prénoms"
 msgid "Date of birth"
 msgstr "Date de naissance"
 
-#: personal/templates/about.html:37 personal/templates/contact.html:54
+#: personal/templates/about.html:37
 msgid "Phone"
 msgstr "Numéro de téléphone"
 
@@ -100,10 +190,6 @@ msgstr "Profession"
 msgid "Student"
 msgstr "Étudiant"
 
-#: personal/templates/about.html:44 personal/templates/layout.html:103
-msgid "Resume"
-msgstr "Mon cursus"
-
 #: personal/templates/about.html:45
 msgid "hire me"
 msgstr "Contactez moi"
@@ -126,19 +212,19 @@ msgstr "Entrez en contact avec moi"
 msgid "Algeria,Algiers,Ben Akoun"
 msgstr "Algérie,Alger,Ben Aknoun"
 
-#: personal/templates/contact.html:48
+#: personal/templates/contact.html:50
 msgid "Name"
 msgstr "Nom"
 
-#: personal/templates/contact.html:51
+#: personal/templates/contact.html:55
 msgid "Email"
 msgstr "Email"
 
-#: personal/templates/contact.html:57
+#: personal/templates/contact.html:59
 msgid "Comment"
 msgstr "Message"
 
-#: personal/templates/contact.html:60
+#: personal/templates/contact.html:62
 msgid "Send Message"
 msgstr "Envoyez Message"
 
@@ -175,13 +261,9 @@ msgstr "Acceuil"
 msgid "About me"
 msgstr "A propos de moi"
 
-#: personal/templates/layout.html:106
+#: personal/templates/layout.html:106 personal/templates/services.html:25
 msgid "Services"
 msgstr "Mes services"
-
-#: personal/templates/layout.html:109
-msgid "Portfolio"
-msgstr "Portfolio"
 
 #: personal/templates/layout.html:112
 msgid "Contact"
@@ -191,17 +273,77 @@ msgstr "Contact"
 msgid "Follow Me"
 msgstr "Suivez moi"
 
-#: personal/templates/layout.html:155
+#: personal/templates/layout.html:153
 msgid "Choose your Language"
 msgstr "Choisissez votre Langue"
 
-#: personal/templates/layout.html:156
+#: personal/templates/layout.html:154
 msgid "Feel free to choose another available language"
 msgstr "Sentez vous libre de choisir une autre langue parmi celles existantes"
 
-#: personal/templates/layout.html:166
+#: personal/templates/layout.html:164
 msgid "Send"
 msgstr "Envoyez"
+
+#: personal/templates/portfolio.html:23
+msgid "My Featured Work"
+msgstr ""
+
+#: personal/templates/portfolio.html:24
+#, fuzzy
+#| msgid "Portfolio"
+msgid "My Portfolio"
+msgstr "Portfolio"
+
+#: personal/templates/resume.html:24
+msgid "My Work Experience"
+msgstr "Mes expérience de travail"
+
+#: personal/templates/resume.html:50
+msgid "My Interests"
+msgstr "Mes centres d'intéretês"
+
+#: personal/templates/resume.html:54
+msgid "Programming"
+msgstr "Programmation"
+
+#: personal/templates/resume.html:58
+msgid "Watch Anime"
+msgstr "Animés"
+
+#: personal/templates/resume.html:62
+msgid "Drawing"
+msgstr "Dessiner"
+
+#: personal/templates/resume.html:66
+msgid "Gaming"
+msgstr "Jeux vidéos"
+
+#: personal/templates/resume.html:70
+msgid "Traveling"
+msgstr "Voyager"
+
+#: personal/templates/resume.html:74
+msgid "Go out"
+msgstr "Sortir"
+
+#: personal/templates/services.html:24
+msgid "What I Can Do Butter"
+msgstr "Mes services offerts"
+
+#: personal/templates/services.html:42
+#, fuzzy
+#| msgid "Contact"
+msgid "My Clients"
+msgstr "Contact"
+
+#: personal/templates/services.html:59
+msgid "Project"
+msgstr "Projet"
+
+#: personal/templates/services.html:64
+msgid "Happy Clients"
+msgstr "Clients heureux"
 
 #: personal/urls.py:7
 msgid "about"
@@ -222,3 +364,7 @@ msgstr "portfolio"
 #: personal/urls.py:11
 msgid "contact"
 msgstr "contact"
+
+#: personal/views.py:39
+msgid "Your message has been sent successfully.We will respond you soon"
+msgstr "Votre message a été envowé avec succès.Nous vous répondrons bientôt "
