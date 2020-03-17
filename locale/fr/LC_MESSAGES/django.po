@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-03-17 06:15+0100\n"
+"POT-Creation-Date: 2020-03-17 14:07+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -19,11 +19,11 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
 #: mikecv/urls.py:30
-msgid "admin/"
-msgstr "administration/"
+msgid "admin_staff_mike/"
+msgstr "administration_staff_mike"
 
 #: personal/admin.py:17 personal/templates/about.html:44
-#: personal/templates/layout.html:103 personal/templates/resume.html:25
+#: personal/templates/layout.html:100 personal/templates/resume.html:25
 msgid "Resume"
 msgstr "Mon cursus"
 
@@ -45,7 +45,6 @@ msgstr "Veuillez donnez une adresse e-mail valide"
 
 #: personal/models.py:8 personal/models.py:21 personal/models.py:26
 #: personal/models.py:31 personal/models.py:38 personal/models.py:52
-
 msgid "name"
 msgstr "Nom"
 
@@ -82,7 +81,6 @@ msgid "description"
 msgstr "description"
 
 #: personal/models.py:35
-
 msgid "Service"
 msgstr "Mes services"
 
@@ -98,7 +96,7 @@ msgstr "titre"
 msgid "appurl"
 msgstr "application url"
 
-#: personal/models.py:48 personal/templates/layout.html:109
+#: personal/models.py:48 personal/templates/layout.html:106
 msgid "Portfolio"
 msgstr "Portfolio"
 
@@ -109,7 +107,6 @@ msgid "email"
 msgstr "Email"
 
 #: personal/models.py:54
-
 msgid "comment"
 msgstr "Commentaire"
 
@@ -253,35 +250,35 @@ msgstr ""
 msgid "Download my CV"
 msgstr "Télécharger mon CV"
 
-#: personal/templates/layout.html:97
+#: personal/templates/layout.html:94
 msgid "Home"
 msgstr "Acceuil"
 
-#: personal/templates/layout.html:100
+#: personal/templates/layout.html:97
 msgid "About me"
 msgstr "A propos de moi"
 
-#: personal/templates/layout.html:106 personal/templates/services.html:25
+#: personal/templates/layout.html:103 personal/templates/services.html:25
 msgid "Services"
 msgstr "Mes services"
 
-#: personal/templates/layout.html:112
+#: personal/templates/layout.html:109
 msgid "Contact"
 msgstr "Contact"
 
-#: personal/templates/layout.html:133
+#: personal/templates/layout.html:130
 msgid "Follow Me"
 msgstr "Suivez moi"
 
-#: personal/templates/layout.html:153
+#: personal/templates/layout.html:150
 msgid "Choose your Language"
 msgstr "Choisissez votre Langue"
 
-#: personal/templates/layout.html:154
+#: personal/templates/layout.html:151
 msgid "Feel free to choose another available language"
 msgstr "Sentez vous libre de choisir une autre langue parmi celles existantes"
 
-#: personal/templates/layout.html:164
+#: personal/templates/layout.html:161
 msgid "Send"
 msgstr "Envoyez"
 
@@ -368,3 +365,6 @@ msgstr "contact"
 #: personal/views.py:39
 msgid "Your message has been sent successfully.We will respond you soon"
 msgstr "Votre message a été envowé avec succès.Nous vous répondrons bientôt "
+
+#~ msgid "admin/"
+#~ msgstr "administration/"

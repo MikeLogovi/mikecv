@@ -27,6 +27,6 @@ urlpatterns = [
     url(r'^static/(?P<path>.*)$', serve,{'document_root': settings.STATIC_ROOT})
 ]
 urlpatterns+=i18n_patterns(
-    path(_('admin/'), admin.site.urls),
+    path(_('admin_staff_mike/'), admin.site.urls),
      path('',include(urls)),
 )

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-03-15 22:21+0100\n"
+"POT-Creation-Date: 2020-03-17 14:07+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -18,6 +18,336 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
+#: mikecv/urls.py:30
+msgid "admin_staff_mike/"
+msgstr ""
+
+#: personal/admin.py:17 personal/templates/about.html:44
+#: personal/templates/layout.html:100 personal/templates/resume.html:25
+msgid "Resume"
+msgstr ""
+
+#: personal/admin.py:33
+msgid "Skill"
+msgstr ""
+
+#: personal/admin.py:34
+msgid "Skills"
+msgstr ""
+
+#: personal/forms.py:5
+msgid "Please give a name with more than 2 characters"
+msgstr ""
+
+#: personal/forms.py:6
+msgid "Please give a valid email"
+msgstr ""
+
+#: personal/models.py:8 personal/models.py:21 personal/models.py:26
+#: personal/models.py:31 personal/models.py:38 personal/models.py:52
+msgid "name"
+msgstr ""
+
+#: personal/models.py:10
+msgid "Categories of resume"
+msgstr ""
+
+#: personal/models.py:17
+msgid "endTime"
+msgstr ""
+
+#: personal/models.py:18
+msgid "resume category"
+msgstr ""
+
+#: personal/models.py:23
+msgid "Categories of skill"
+msgstr ""
+
+#: personal/models.py:27
+msgid "level"
+msgstr ""
+
+#: personal/models.py:28
+msgid "Skill Category"
+msgstr ""
+
+#: personal/models.py:32 personal/models.py:46 personal/models.py:58
+msgid "picture"
+msgstr ""
+
+#: personal/models.py:33 personal/models.py:45
+msgid "description"
+msgstr ""
+
+#: personal/models.py:35
+msgid "Service"
+msgstr ""
+
+#: personal/models.py:39
+msgid "slug"
+msgstr ""
+
+#: personal/models.py:44
+msgid "title"
+msgstr ""
+
+#: personal/models.py:47
+msgid "appurl"
+msgstr ""
+
+#: personal/models.py:48 personal/templates/layout.html:106
+msgid "Portfolio"
+msgstr ""
+
+#: personal/models.py:53
+msgid "email"
+msgstr ""
+
+#: personal/models.py:54
+msgid "comment"
+msgstr ""
+
+#: personal/templates/404.html:32
+msgid "we are sorry, but the page you requested was not found"
+msgstr ""
+
+#: personal/templates/404.html:33
+msgid "Go Home"
+msgstr ""
+
+#: personal/templates/404.html:34
+msgid "Contact us"
+msgstr ""
+
+#: personal/templates/about.html:28
+msgid "Know About Me"
+msgstr ""
+
+#: personal/templates/about.html:29
+msgid "About Me"
+msgstr ""
+
+#: personal/templates/about.html:31
+msgid "Hello! I’m Mike.  here is piece of information about me "
+msgstr ""
+
+#: personal/templates/about.html:33
+msgid "Last name"
+msgstr ""
+
+#: personal/templates/about.html:34
+msgid "First name"
+msgstr ""
+
+#: personal/templates/about.html:35
+msgid "Date of birth"
+msgstr ""
+
+#: personal/templates/about.html:37
+msgid "Phone"
+msgstr ""
+
+#: personal/templates/about.html:38
+msgid "Address"
+msgstr ""
+
+#: personal/templates/about.html:39
+msgid "Nationality"
+msgstr ""
+
+#: personal/templates/about.html:39
+msgid "Togolese"
+msgstr ""
+
+#: personal/templates/about.html:40
+msgid "Gender"
+msgstr ""
+
+#: personal/templates/about.html:40
+msgid "Male"
+msgstr ""
+
+#: personal/templates/about.html:41
+msgid "Marital Status"
+msgstr ""
+
+#: personal/templates/about.html:41
+msgid "Single"
+msgstr ""
+
+#: personal/templates/about.html:42
+msgid "Work Status"
+msgstr ""
+
+#: personal/templates/about.html:42
+msgid "Student"
+msgstr ""
+
+#: personal/templates/about.html:45
+msgid "hire me"
+msgstr ""
+
+#: personal/templates/contact.html:24
+msgid "My Contact"
+msgstr ""
+
+#: personal/templates/contact.html:25
+msgid "Contact Me"
+msgstr ""
+
+#: personal/templates/contact.html:34
+msgid "Get in Touch"
+msgstr ""
+
+#: personal/templates/contact.html:36
+msgid "Algeria,Algiers,Ben Akoun"
+msgstr ""
+
+#: personal/templates/contact.html:50
+msgid "Name"
+msgstr ""
+
+#: personal/templates/contact.html:55
+msgid "Email"
+msgstr ""
+
+#: personal/templates/contact.html:59
+msgid "Comment"
+msgstr ""
+
+#: personal/templates/contact.html:62
+msgid "Send Message"
+msgstr ""
+
 #: personal/templates/index.html:27
-msgid "Mike Le boss"
+msgid "Hello"
+msgstr ""
+
+#: personal/templates/index.html:27
+msgid "I am Mike LOGOVI"
+msgstr ""
+
+#: personal/templates/index.html:30
+msgid ""
+"Autonomous, self-taught and disciplined, perseverance is what I share every "
+"day.Passionate and open, I love programming and thanks to it I can express "
+"all my expressions.Far from being a geek anyway, I really have a social "
+"life, I am a leader and communication is my strong point."
+msgstr ""
+
+#: personal/templates/index.html:32
+msgid "Download my CV"
+msgstr ""
+
+#: personal/templates/layout.html:94
+msgid "Home"
+msgstr ""
+
+#: personal/templates/layout.html:97
+msgid "About me"
+msgstr ""
+
+#: personal/templates/layout.html:103 personal/templates/services.html:25
+msgid "Services"
+msgstr ""
+
+#: personal/templates/layout.html:109
+msgid "Contact"
+msgstr ""
+
+#: personal/templates/layout.html:130
+msgid "Follow Me"
+msgstr ""
+
+#: personal/templates/layout.html:150
+msgid "Choose your Language"
+msgstr ""
+
+#: personal/templates/layout.html:151
+msgid "Feel free to choose another available language"
+msgstr ""
+
+#: personal/templates/layout.html:161
+msgid "Send"
+msgstr ""
+
+#: personal/templates/portfolio.html:23
+msgid "My Featured Work"
+msgstr ""
+
+#: personal/templates/portfolio.html:24
+msgid "My Portfolio"
+msgstr ""
+
+#: personal/templates/resume.html:24
+msgid "My Work Experience"
+msgstr ""
+
+#: personal/templates/resume.html:50
+msgid "My Interests"
+msgstr ""
+
+#: personal/templates/resume.html:54
+msgid "Programming"
+msgstr ""
+
+#: personal/templates/resume.html:58
+msgid "Watch Anime"
+msgstr ""
+
+#: personal/templates/resume.html:62
+msgid "Drawing"
+msgstr ""
+
+#: personal/templates/resume.html:66
+msgid "Gaming"
+msgstr ""
+
+#: personal/templates/resume.html:70
+msgid "Traveling"
+msgstr ""
+
+#: personal/templates/resume.html:74
+msgid "Go out"
+msgstr ""
+
+#: personal/templates/services.html:24
+msgid "What I Can Do Butter"
+msgstr ""
+
+#: personal/templates/services.html:42
+msgid "My Clients"
+msgstr ""
+
+#: personal/templates/services.html:59
+msgid "Project"
+msgstr ""
+
+#: personal/templates/services.html:64
+msgid "Happy Clients"
+msgstr ""
+
+#: personal/urls.py:7
+msgid "about"
+msgstr ""
+
+#: personal/urls.py:8
+msgid "resume"
+msgstr ""
+
+#: personal/urls.py:9
+msgid "services"
+msgstr ""
+
+#: personal/urls.py:10
+msgid "portfolio"
+msgstr ""
+
+#: personal/urls.py:11
+msgid "contact"
+msgstr ""
+
+#: personal/views.py:39
+msgid "Your message has been sent successfully.We will respond you soon"
 msgstr ""
