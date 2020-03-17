@@ -47,6 +47,7 @@ INSTALLED_APPS = [
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
+    'whitenoise.middleware.WhiteNoiseMiddleware', 
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.locale.LocaleMiddleware',
     'django.middleware.common.CommonMiddleware',
@@ -54,7 +55,6 @@ MIDDLEWARE = [
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
-    'whitenoise.middleware.WhiteNoiseMiddleware', 
 
 ]
 
@@ -136,18 +136,16 @@ LANGUAGES=[
 # https://docs.djangoproject.com/en/3.0/howto/static-files/
 ##specify static root
 STATIC_URL = '/static/'
-if os.environ.get('ENV')=='PRODUCTION':
-    PROJECT_ROOT=os.path.dirname(os.path.abspath(__file__))
-    STATIC_ROOT=os.path.join(PROJECT_ROOT,'staticfiles')
-    STATICFILES_DIRS=(
-        os.path.join(PROJECT_ROOT,'static'),
-    )
-    STATICFILES_STORAGE ='whitenoise.storage.CompressedManifestStaticFilesStorage'
-    db_from_env=dj_database_url.config(conn_max_age=500)
-    DATABASES['default'].update(db_from_env)
 
-else:
-    STATICFILES_DIRS=(
-        os.path.join(BASE_DIR,'static'),
-    )
-    STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles') 
+STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
+
+if os.getcwd() == '/app':
+    import dj_database_url
+    db_from_env = dj_database_url.config(conn_max_age=500)
+    DATABASES['default'].update(db_from_env)
+    #Honor the 'X-forwarded-Proto' header for request.is_secure().
+    SECURE_PROXY_SSL_HEADER = ('HTTP_X_FORWARDED_PROTO', 'https')
+
+    #Allow all host headers
+    ALLOWED_HOSTS = ['hellodevdennis.herokuapp.com']
+    DEBUG = True
