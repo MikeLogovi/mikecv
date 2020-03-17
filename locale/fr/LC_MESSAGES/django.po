@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-03-17 14:07+0100\n"
+"POT-Creation-Date: 2020-03-17 14:34+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -270,15 +270,15 @@ msgstr "Contact"
 msgid "Follow Me"
 msgstr "Suivez moi"
 
-#: personal/templates/layout.html:150
+#: personal/templates/layout.html:151
 msgid "Choose your Language"
 msgstr "Choisissez votre Langue"
 
-#: personal/templates/layout.html:151
+#: personal/templates/layout.html:152
 msgid "Feel free to choose another available language"
 msgstr "Sentez vous libre de choisir une autre langue parmi celles existantes"
 
-#: personal/templates/layout.html:161
+#: personal/templates/layout.html:162
 msgid "Send"
 msgstr "Envoyez"
 
@@ -291,6 +291,10 @@ msgstr ""
 #| msgid "Portfolio"
 msgid "My Portfolio"
 msgstr "Portfolio"
+
+#: personal/templates/portfolio.html:29
+msgid "View All"
+msgstr "Voir tout"
 
 #: personal/templates/resume.html:24
 msgid "My Work Experience"
@@ -368,3 +372,4 @@ msgstr "Votre message a été envowé avec succès.Nous vous répondrons bientô
 
 #~ msgid "admin/"
 #~ msgstr "administration/"
+ 
