@@ -134,6 +134,7 @@ LANGUAGES=[
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/3.0/howto/static-files/
 ##specify static root
+STATIC_URL = '/static/'
 if os.environ.get('ENV')=='PRODUCTION':
     PROJECT_ROOT=os.path.dirname(os.path.abspath(__file__))
     STATIC_ROOT=os.path.join(PROJECT_ROOT,'staticfiles')
@@ -144,8 +145,6 @@ if os.environ.get('ENV')=='PRODUCTION':
     DATABASES['default'].update(db_from_env)
 
 else:
-    
-    STATIC_URL = '/static/'
     STATICFILES_DIRS=(
         os.path.join(BASE_DIR,'static'),
     )
