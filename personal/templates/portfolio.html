@@ -20,125 +20,41 @@
                 <div class="row">
                     <div class="col-md-12">
                         <div class="main-title iq-mb-20">
-                                <small>My Featured Work</small>
-                                <h1 class="display-4 iq-tw-8 iq-font-purple">My Portfolio</h1>
+                                <small>{% trans 'My Featured Work' %}</small>
+                                <h1 class="display-4 iq-tw-8 iq-font-purple">{% trans 'My Portfolio' %}</h1>
                             </div>
                     </div>
                     <div class="col-md-12">
                         <div class="isotope-filters">
-                    <button data-filter="" class="active"> View All</button>
-                    <button data-filter=".web-design"> Web Design</button>
-                    <button data-filter=".graphic-design">Graphic Design</button>
-                    <button data-filter=".website-templates">Website Templates </button>
-                </div>
+                            <button data-filter="" class="active"> View All</button>
+                            {% for p in portfolios%}
+                                <button data-filter=".{{p.slug}}"> {{p.name}}</button>
+                            {% endfor  %}
+                        </div>
                     </div>
                     <div class="col-md-12">
+                        
                         <div class="isotope popup-gallery full-screen">
-            <div class="grid-item web-design graphic-design clearfix">
-                <div class="portfolio-item clearfix">
-                    <img src="{% static 'images/portfolio/01.jpg' %}" alt="img04">
-                    <div class="overlay">
-                        <h4>work item one</h4>
-                        <span>jones</span>
-                        <div class="item-link">
-                            <a class="popup-img" href="{% static 'images/portfolio/01.jpg' %}"><span class="ti-plus"></span></a>
-                            <a href="#"><span class="ti-link"></span></a>
+                            {% for p in portfolios %}
+                            {% for image in p.images.all%}
+                            <div class="grid-item {{image.portfolio.slug}} graphic-design clearfix">
+                                <div class="portfolio-item clearfix">
+
+                                    <img style="height:200px;" src="{{image.picture}}" 
+                                    alt="{{image.name}}">
+                                    <div class="overlay">
+                                        <h4>{{image.title}}</h4>
+                                        <span>{{image.description}}</span>
+                                        <div class="item-link">
+                                            <a class="popup-img" href="{{image.picture}}"><span class="ti-plus"></span></a>
+                                            <a href="{{image.appurl}}" target="_blank"><span class="ti-link"></span></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            {% endfor %}
+                            {% endfor %}
                         </div>
-                    </div>
-                </div>
-            </div>
-            <div class="grid-item web-design">
-                <div class="portfolio-item">
-                    <img src="{% static 'images/portfolio/02.jpg' %}" alt="img04">
-                    <div class="overlay">
-                        <h4>work item one</h4>
-                        <span>jones</span>
-                        <div class="item-link">
-                            <a class="popup-img" href="{% static 'images/portfolio/02.jpg' %}"><span class="ti-plus"></span></a>
-                            <a href="#"><span class="ti-link"></span></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="grid-item website-templates">
-                <div class="portfolio-item">
-                    <img src="{% static 'images/portfolio/03.jpg' %}" alt="img04">
-                    <div class="overlay">
-                        <h4>work item one</h4>
-                        <span>jones</span>
-                        <div class="item-link">
-                            <a class="popup-img" href="{% static 'images/portfolio/03.jpg' %}"><span class="ti-plus"></span></a>
-                            <a href="#"><span class="ti-link"></span></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="grid-item graphic-design">
-                <div class="portfolio-item">
-                    <img src="{% static 'images/portfolio/04.jpg' %}" alt="img04">
-                    <div class="overlay">
-                        <h4>work item one</h4>
-                        <span>jones</span>
-                        <div class="item-link">
-                            <a class="popup-img" href="{% static 'images/portfolio/04.jpg' %}"><span class="ti-plus"></span></a>
-                            <a href="#"><span class="ti-link"></span></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="grid-item web-design">
-                <div class="portfolio-item">
-                    <img src="{% static 'images/portfolio/05.jpg' %}" alt="img04">
-                    <div class="overlay">
-                        <h4>work item one</h4>
-                        <span>jones</span>
-                        <div class="item-link">
-                            <a class="popup-img" href="{% static 'images/portfolio/05.jpg' %}"><span class="ti-plus"></span></a>
-                            <a href="#"><span class="ti-link"></span></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="grid-item">
-                <div class="portfolio-item">
-                    <img src="{% static 'images/portfolio/06.jpg' %}" alt="img04">
-                    <div class="overlay">
-                        <h4>work item one</h4>
-                        <span>jones</span>
-                        <div class="item-link">
-                            <a class="popup-img" href="{% static 'images/portfolio/06.jpg' %}"><span class="ti-plus"></span></a>
-                            <a href="#"><span class="ti-link"></span></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="grid-item website-templates">
-                <div class="portfolio-item">
-                    <img src="{% static 'images/portfolio/07.jpg' %}" alt="img04">
-                    <div class="overlay">
-                        <h4>work item one</h4>
-                        <span>jones</span>
-                        <div class="item-link">
-                            <a class="popup-img" href="{% static 'images/portfolio/07.jpg' %}"><span class="ti-plus"></span></a>
-                            <a href="#"><span class="ti-link"></span></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="grid-item website-templates">
-                <div class="portfolio-item">
-                    <img src="{% static 'images/portfolio/08.jpg' %}" alt="img04">
-                    <div class="overlay">
-                        <h4>work item one</h4>
-                        <span>jones</span>
-                        <div class="item-link">
-                            <a class="popup-img" href="{% static 'images/portfolio/08.jpg' %}"><span class="ti-plus"></span></a>
-                            <a href="#"><span class="ti-link"></span></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
                     </div>
                 </div>
             </div>

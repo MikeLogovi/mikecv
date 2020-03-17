@@ -36,25 +36,27 @@
                                             <li><i class="ti-location-pin"></i> <p>{%trans 'Algeria,Algiers,Ben Akoun' %}</p> </li>
                                             <li><i class="ti-marker-alt"></i> <p><a href="mailto:logovimike@gmail.com" >logovimike@gmail.com</a> </p></li>
                                             <li><i class="ti-mobile"></i> <p>+213 540 11 32 97</p></li>
-                                            <li><i class="ti-printer"></i> <p>(098)-765-4321 </p></li>
+                                            <li><a href="https://wa.me/213672626466"><i class="fa fa-whatsapp"></i> <p>+213 672 62 64 66 </p></a></li>
                                           </ul>
                                     </div>
                                 </div>
                             <div class="iq-get-in">
                             <div id="formmessage">Success/Error Message Goes Here</div>
-                            <form class="form-horizontal" id="contactform" method="post" action="https://iqonic.design/themes/profyl/php/contact-form.php">
+                            <form class="form-horizontal" id="contactform" method="post">
+                                {% csrf_token %}
+                                <input type="hidden" name="next" value="{% url 'contact' %}">
                                 <div class="contact-form row">
                                     <div class="section-field col-md-4">
                                         <input id="name" type="text" placeholder="{% trans 'Name' %}*" name="name">
                                     </div>
                                     <div class="section-field col-md-4">
-                                        <input type="email" placeholder="{% trans 'Email' %}*" name="email">
                                     </div>
                                     <div class="section-field col-md-4">
-                                        <input type="text" placeholder="{%trans 'Phone' %}*" name="phone">
+                                        <input type="email" placeholder="{% trans 'Email' %}*" name="email">
                                     </div>
+                                    
                                     <div class="section-field textarea col-md-12">
-                                        <textarea class="input-message" placeholder="{% trans 'Comment' %}*" rows="5" name="message"></textarea>
+                                        <textarea class="input-message" placeholder="{% trans 'Comment' %}*" rows="5" name="comment"></textarea>
                                     </div>
                                     <div class="col-md-12">
                                     <button id="submit" name="submit" type="submit" value="Send" class="button iq-mt-30">{% trans 'Send Message' %}</button>
@@ -62,6 +64,7 @@
                                 </div>
                             </form>
                             <div id="ajaxloader" style="display:none"><img class="center-block mt-30 mb-30" src="{% static 'images/ajax-loader.html'%}" alt="#"></div>
+                            {% include 'common/message.html' %}
                         </div>
                             </div>
                         </div>
