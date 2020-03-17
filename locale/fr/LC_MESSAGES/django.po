@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-03-17 14:34+0100\n"
+"POT-Creation-Date: 2020-03-17 14:50+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -192,7 +192,6 @@ msgid "hire me"
 msgstr "Contactez moi"
 
 #: personal/templates/contact.html:24
-
 msgid "My Contact"
 msgstr "Mes contacts"
 
@@ -248,6 +247,10 @@ msgstr ""
 #: personal/templates/index.html:32
 msgid "Download my CV"
 msgstr "Télécharger mon CV"
+
+#: personal/templates/layout.html:14
+msgid "My website for cv and portfolio of projects"
+msgstr "Mon site web pour cv et portfolio de projets"
 
 #: personal/templates/layout.html:94
 msgid "Home"
