@@ -242,7 +242,7 @@ msgstr ""
 "les jours. Passionné et ouvert ,j'aime beaucoup la programmation et grâce à "
 "elle je peux exprimer toutes mes expressions.Loin d'être quand même un geek,"
 "j'ai vraiment une vie sociale,je suis un leader et la communication est mon "
-"point fort"
+"point fort."
 
 #: personal/templates/index.html:32
 msgid "Download my CV"
@@ -250,7 +250,7 @@ msgstr "Télécharger mon CV"
 
 #: personal/templates/layout.html:14
 msgid "My website for cv and portfolio of projects"
-msgstr "Mon site web pour cv et portfolio de projets"
+msgstr "Mon site web pour cv et portfolio de projets."
 
 #: personal/templates/layout.html:94
 msgid "Home"
@@ -278,7 +278,7 @@ msgstr "Choisissez votre Langue"
 
 #: personal/templates/layout.html:152
 msgid "Feel free to choose another available language"
-msgstr "Sentez vous libre de choisir une autre langue parmi celles existantes"
+msgstr "Sentez vous libre de choisir une autre langue parmi celles existantes."
 
 #: personal/templates/layout.html:162
 msgid "Send"
@@ -370,7 +370,7 @@ msgstr "contact"
 
 #: personal/views.py:39
 msgid "Your message has been sent successfully.We will respond you soon"
-msgstr "Votre message a été envowé avec succès.Nous vous répondrons bientôt "
+msgstr "Votre message a été envoyé avec succès.Nous vous répondrons bientôt"
 
 #~ msgid "admin/"
 #~ msgstr "administration/"
