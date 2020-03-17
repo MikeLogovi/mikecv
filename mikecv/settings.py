@@ -25,8 +25,7 @@ SECRET_KEY = 'u-6xbv#ugurbc++ae5&$850ywv&si)n&v^!2#s=ikmf0=8*w(6'
 # SECURITY WARNING: don't run with debug turned on in production!
 if os.environ.get('ENV')=='PRODUCTION':
     DEBUG =False
-    db_from_env=dj_database_url.config(conn_max_age=500)
-    DATABASES['default'].update(db_from_env)
+
 else:
     DEBUG =True
 ALLOWED_HOSTS = ['mikelogovi.herokuapp.com']
@@ -134,9 +133,20 @@ LANGUAGES=[
 ]
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/3.0/howto/static-files/
+##specify static root
+if os.environ.get('ENV')=='PRODUCTION':
+    PROJECT_ROOT=os.path.dirname(os.path.abspath(__file__))
+    STATIC_ROOT=os.path.join(PROJECT_ROOT,'staticfiles')
+    STATICFILES_DIRS=(
+        os.path.join(PROJECT_ROOT,'static'),
+    )
+    db_from_env=dj_database_url.config(conn_max_age=500)
+    DATABASES['default'].update(db_from_env)
 
-STATIC_URL = '/static/'
-STATICFILES_DIRS=(
-    os.path.join(BASE_DIR,'static'),
-)
-STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles') ##specify static root
+else:
+    
+    STATIC_URL = '/static/'
+    STATICFILES_DIRS=(
+        os.path.join(BASE_DIR,'static'),
+    )
+    STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles') 
