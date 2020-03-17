@@ -192,10 +192,9 @@ msgid "hire me"
 msgstr "Contactez moi"
 
 #: personal/templates/contact.html:24
-#, fuzzy
-#| msgid "Contact"
+
 msgid "My Contact"
-msgstr "Contact"
+msgstr "Mes contacts"
 
 #: personal/templates/contact.html:25
 msgid "Contact Me"
@@ -372,4 +371,3 @@ msgstr "Votre message a été envowé avec succès.Nous vous répondrons bientô
 
 #~ msgid "admin/"
 #~ msgstr "administration/"
- 
