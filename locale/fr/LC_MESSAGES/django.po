@@ -151,7 +151,7 @@ msgstr "Prénoms"
 
 #: personal/templates/about.html:35
 msgid "Youtube Channel"
-msgstr ""
+msgstr "Chaine youtube"
 
 #: personal/templates/about.html:37
 msgid "Phone"
