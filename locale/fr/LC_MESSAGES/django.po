@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-03-17 14:50+0100\n"
+"POT-Creation-Date: 2020-03-17 18:20+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -232,11 +232,12 @@ msgid "I am Mike LOGOVI"
 msgstr "Je m'appelle Mike LOGOVI"
 
 #: personal/templates/index.html:30
+
 msgid ""
-"Autonomous, self-taught and disciplined, perseverance is what I share every "
+"Autonomous, self-taught and disciplined; perseverance is what I share every "
 "day.Passionate and open, I love programming and thanks to it I can express "
-"all my expressions.Far from being a geek anyway, I really have a social "
-"life, I am a leader and communication is my strong point."
+"all my feelings.I also have a social life. I am a leader and communication "
+"is my strongest point."
 msgstr ""
 "Autonome,autodidacte et discipliné,la persévérance est mon partage de tous "
 "les jours. Passionné et ouvert ,j'aime beaucoup la programmation et grâce à "
@@ -286,13 +287,11 @@ msgstr "Envoyez"
 
 #: personal/templates/portfolio.html:23
 msgid "My Featured Work"
-msgstr ""
+msgstr "Mes travaux réalisés"
 
 #: personal/templates/portfolio.html:24
-#, fuzzy
-#| msgid "Portfolio"
 msgid "My Portfolio"
-msgstr "Portfolio"
+msgstr "Mon portfolio"
 
 #: personal/templates/portfolio.html:29
 msgid "View All"
@@ -335,14 +334,12 @@ msgid "What I Can Do Butter"
 msgstr "Mes services offerts"
 
 #: personal/templates/services.html:42
-#, fuzzy
-#| msgid "Contact"
 msgid "My Clients"
-msgstr "Contact"
+msgstr "Mes clients"
 
 #: personal/templates/services.html:59
-msgid "Project"
-msgstr "Projet"
+msgid "Projects"
+msgstr "Projets"
 
 #: personal/templates/services.html:64
 msgid "Happy Clients"

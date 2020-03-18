@@ -18,7 +18,8 @@ def resume(request):
 def services(request):
     ser=Service.objects.all
     clients=Client.objects.all
-    context={'ser':ser,'clients':clients}
+    customers=Customer.object.all
+    context={'ser':ser,'clients':clients,'customers':customers}
     return render(request,'services.html',context)
     #return HttpResponse(services)
 def portfolio(request):

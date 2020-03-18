@@ -4,6 +4,7 @@ from django.utils.translation import gettext_lazy as _
 admin.site.register(Service)
 admin.site.register(Message)
 admin.site.register(Client)
+admin.site.register(Customer)
 class ResumeInline(admin.TabularInline):
     model = Resume
     extra = 1

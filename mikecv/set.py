@@ -146,8 +146,3 @@ if os.getcwd() == '/app':
     #Allow all host headers
     ALLOWED_HOSTS = ['mikelogovi.herokuapp.com']
     DEBUG = False
-
-else:
-    STATICFILES_DIRS = [
-        os.path.join(BASE_DIR, "static"),
-    ]
