@@ -8,6 +8,11 @@ class ResumeCategoryTranslationOptions(TranslationOptions):
 class ResumeTranslationOptions(TranslationOptions):
     fields = ('degree','place','description',)
 
+@register(Customer)
+class CustomerTranslationOptions(TranslationOptions):
+    fields = ('name','job','comment',)
+
+
 @register(Skill)
 class SkillTranslationOptions(TranslationOptions):
     fields = ('name',)

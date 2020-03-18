@@ -57,7 +57,7 @@ class Message(models.Model):
 class Client(models.Model):
     picture=models.URLField(_("picture"))
     
-class Customers(modes.Model):
+class Customer(models.Model):
     name=models.CharField(_("name"), max_length=50)
     picture=models.URLField(_("picture"))
     job=models.CharField(_("job"), max_length=50)

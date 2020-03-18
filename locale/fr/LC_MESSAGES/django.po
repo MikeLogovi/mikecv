@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-03-17 18:20+0100\n"
+"POT-Creation-Date: 2020-03-18 06:35+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -20,18 +20,18 @@ msgstr ""
 
 #: mikecv/urls.py:30
 msgid "admin_staff_mike/"
-msgstr "administration_staff_mike"
+msgstr ""
 
-#: personal/admin.py:17 personal/templates/about.html:44
+#: personal/admin.py:18 personal/templates/about.html:44
 #: personal/templates/layout.html:100 personal/templates/resume.html:25
 msgid "Resume"
 msgstr "Mon cursus"
 
-#: personal/admin.py:33
+#: personal/admin.py:34
 msgid "Skill"
 msgstr "Compétence"
 
-#: personal/admin.py:34
+#: personal/admin.py:35
 msgid "Skills"
 msgstr "Compétences"
 
@@ -45,6 +45,7 @@ msgstr "Veuillez donnez une adresse e-mail valide"
 
 #: personal/models.py:8 personal/models.py:21 personal/models.py:26
 #: personal/models.py:31 personal/models.py:38 personal/models.py:52
+#: personal/models.py:61
 msgid "name"
 msgstr "Nom"
 
@@ -73,6 +74,7 @@ msgid "Skill Category"
 msgstr "Catégorie de compétence"
 
 #: personal/models.py:32 personal/models.py:46 personal/models.py:58
+#: personal/models.py:62
 msgid "picture"
 msgstr "photo"
 
@@ -106,9 +108,13 @@ msgstr "Portfolio"
 msgid "email"
 msgstr "Email"
 
-#: personal/models.py:54
+#: personal/models.py:54 personal/models.py:64
 msgid "comment"
 msgstr "Commentaire"
+
+#: personal/models.py:63
+msgid "job"
+msgstr ""
 
 #: personal/templates/404.html:32
 msgid "we are sorry, but the page you requested was not found"
@@ -144,8 +150,8 @@ msgid "First name"
 msgstr "Prénoms"
 
 #: personal/templates/about.html:35
-msgid "Date of birth"
-msgstr "Date de naissance"
+msgid "Youtube Channel"
+msgstr ""
 
 #: personal/templates/about.html:37
 msgid "Phone"
@@ -232,7 +238,6 @@ msgid "I am Mike LOGOVI"
 msgstr "Je m'appelle Mike LOGOVI"
 
 #: personal/templates/index.html:30
-
 msgid ""
 "Autonomous, self-taught and disciplined; perseverance is what I share every "
 "day.Passionate and open, I love programming and thanks to it I can express "
@@ -334,14 +339,18 @@ msgid "What I Can Do Butter"
 msgstr "Mes services offerts"
 
 #: personal/templates/services.html:42
-msgid "My Clients"
-msgstr "Mes clients"
+msgid "Loved By My Customers"
+msgstr "Aimé par mes clients"
 
-#: personal/templates/services.html:59
+#: personal/templates/services.html:67
+msgid "My Partners"
+msgstr "Mes partenariats"
+
+#: personal/templates/services.html:84
 msgid "Projects"
 msgstr "Projets"
 
-#: personal/templates/services.html:64
+#: personal/templates/services.html:89
 msgid "Happy Clients"
 msgstr "Clients heureux"
 
@@ -365,9 +374,18 @@ msgstr "portfolio"
 msgid "contact"
 msgstr "contact"
 
-#: personal/views.py:39
+#: personal/views.py:40
 msgid "Your message has been sent successfully.We will respond you soon"
 msgstr "Votre message a été envoyé avec succès.Nous vous répondrons bientôt"
+
+#~ msgid "/"
+#~ msgstr "administration_staff_mike"
+
+#~ msgid "Date of birth"
+#~ msgstr "Date de naissance"
+
+#~ msgid "My Clients"
+#~ msgstr "Mes clients"
 
 #~ msgid "admin/"
 #~ msgstr "administration/"

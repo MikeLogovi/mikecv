@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-03-17 18:20+0100\n"
+"POT-Creation-Date: 2020-03-18 06:35+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -22,16 +22,16 @@ msgstr ""
 msgid "admin_staff_mike/"
 msgstr ""
 
-#: personal/admin.py:17 personal/templates/about.html:44
+#: personal/admin.py:18 personal/templates/about.html:44
 #: personal/templates/layout.html:100 personal/templates/resume.html:25
 msgid "Resume"
 msgstr ""
 
-#: personal/admin.py:33
+#: personal/admin.py:34
 msgid "Skill"
 msgstr ""
 
-#: personal/admin.py:34
+#: personal/admin.py:35
 msgid "Skills"
 msgstr ""
 
@@ -45,6 +45,7 @@ msgstr ""
 
 #: personal/models.py:8 personal/models.py:21 personal/models.py:26
 #: personal/models.py:31 personal/models.py:38 personal/models.py:52
+#: personal/models.py:61
 msgid "name"
 msgstr ""
 
@@ -73,6 +74,7 @@ msgid "Skill Category"
 msgstr ""
 
 #: personal/models.py:32 personal/models.py:46 personal/models.py:58
+#: personal/models.py:62
 msgid "picture"
 msgstr ""
 
@@ -104,8 +106,12 @@ msgstr ""
 msgid "email"
 msgstr ""
 
-#: personal/models.py:54
+#: personal/models.py:54 personal/models.py:64
 msgid "comment"
+msgstr ""
+
+#: personal/models.py:63
+msgid "job"
 msgstr ""
 
 #: personal/templates/404.html:32
@@ -141,7 +147,7 @@ msgid "First name"
 msgstr ""
 
 #: personal/templates/about.html:35
-msgid "Date of birth"
+msgid "Youtube Channel"
 msgstr ""
 
 #: personal/templates/about.html:37
@@ -325,14 +331,18 @@ msgid "What I Can Do Butter"
 msgstr ""
 
 #: personal/templates/services.html:42
-msgid "My Clients"
+msgid "Loved By My Customers"
 msgstr ""
 
-#: personal/templates/services.html:59
+#: personal/templates/services.html:67
+msgid "My Partners"
+msgstr ""
+
+#: personal/templates/services.html:84
 msgid "Projects"
 msgstr ""
 
-#: personal/templates/services.html:64
+#: personal/templates/services.html:89
 msgid "Happy Clients"
 msgstr ""
 
@@ -356,6 +366,6 @@ msgstr ""
 msgid "contact"
 msgstr ""
 
-#: personal/views.py:39
+#: personal/views.py:40
 msgid "Your message has been sent successfully.We will respond you soon"
 msgstr ""
