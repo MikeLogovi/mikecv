@@ -1,0 +1,14 @@
+2020-05-07 12:53:35.555 CET [2074] LOG:  starting PostgreSQL 12.2 on x86_64-apple-darwin18.7.0, compiled by Apple clang version 11.0.0 (clang-1100.0.33.17), 64-bit
+2020-05-07 12:53:35.557 CET [2074] LOG:  listening on IPv6 address "::1", port 5432
+2020-05-07 12:53:35.558 CET [2074] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2020-05-07 12:53:35.558 CET [2074] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2020-05-07 12:53:35.570 CET [2075] LOG:  database system was shut down at 2020-05-07 12:53:33 CET
+2020-05-07 12:53:35.573 CET [2074] LOG:  database system is ready to accept connections
+2020-05-07 12:53:40.098 CET [2097] FATAL:  database "mikecv" does not exist
+2020-05-07 12:54:36.948 CET [2139] FATAL:  database "mikecv" does not exist
+2020-05-07 12:54:43.320 CET [2147] FATAL:  database "mac" does not exist
+2020-05-07 12:58:52.462 CET [2282] FATAL:  database "mikecv" does not exist
+2020-05-07 12:59:02.935 CET [2292] FATAL:  database "mac" does not exist
+2020-05-07 12:59:45.109 CET [2337] FATAL:  database "mikecv" does not exist
+2020-05-07 12:59:54.945 CET [2347] FATAL:  database "mac" does not exist
+2020-05-07 13:01:21.793 CET [2397] FATAL:  database "mac" does not exist
