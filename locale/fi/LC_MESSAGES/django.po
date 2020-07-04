@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-03-18 06:35+0100\n"
+"POT-Creation-Date: 2020-07-04 13:51+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: mikecv/urls.py:30
+#: mikecv/urls.py:31
 msgid "admin_staff_mike/"
 msgstr ""
 
@@ -45,7 +45,7 @@ msgstr ""
 
 #: personal/models.py:8 personal/models.py:21 personal/models.py:26
 #: personal/models.py:31 personal/models.py:38 personal/models.py:52
-#: personal/models.py:61
+#: personal/models.py:61 personal/models.py:68 personal/models.py:75
 msgid "name"
 msgstr ""
 
@@ -78,7 +78,7 @@ msgstr ""
 msgid "picture"
 msgstr ""
 
-#: personal/models.py:33 personal/models.py:45
+#: personal/models.py:33 personal/models.py:45 personal/models.py:81
 msgid "description"
 msgstr ""
 
@@ -86,7 +86,7 @@ msgstr ""
 msgid "Service"
 msgstr ""
 
-#: personal/models.py:39
+#: personal/models.py:39 personal/models.py:69 personal/models.py:76
 msgid "slug"
 msgstr ""
 
@@ -98,7 +98,7 @@ msgstr ""
 msgid "appurl"
 msgstr ""
 
-#: personal/models.py:48 personal/templates/layout.html:106
+#: personal/models.py:48 personal/templates/layout.html:109
 msgid "Portfolio"
 msgstr ""
 
@@ -112,6 +112,30 @@ msgstr ""
 
 #: personal/models.py:63
 msgid "job"
+msgstr ""
+
+#: personal/models.py:72
+msgid "Categories of certification"
+msgstr ""
+
+#: personal/models.py:77
+msgid "school"
+msgstr ""
+
+#: personal/models.py:78
+msgid "picture_branding"
+msgstr ""
+
+#: personal/models.py:79
+msgid "picture_certification"
+msgstr ""
+
+#: personal/models.py:80
+msgid "link_certification"
+msgstr ""
+
+#: personal/models.py:82
+msgid "Certification Category"
 msgstr ""
 
 #: personal/templates/404.html:32
@@ -194,6 +218,23 @@ msgstr ""
 msgid "hire me"
 msgstr ""
 
+#: personal/templates/certifications.html:23
+msgid "My self-taught works"
+msgstr ""
+
+#: personal/templates/certifications.html:24
+msgid "Certifications"
+msgstr ""
+
+#: personal/templates/certifications.html:29
+#: personal/templates/portfolio.html:29
+msgid "View All"
+msgstr ""
+
+#: personal/templates/certifications.html:52
+msgid "See the certification"
+msgstr ""
+
 #: personal/templates/contact.html:24
 msgid "My Contact"
 msgstr ""
@@ -242,7 +283,12 @@ msgid ""
 "is my strongest point."
 msgstr ""
 
-#: personal/templates/index.html:32
+#: personal/templates/index.html:33
+msgid ""
+"Currently looking for a job or internship as a Professional Flutter Developer"
+msgstr ""
+
+#: personal/templates/index.html:35
 msgid "Download my CV"
 msgstr ""
 
@@ -258,27 +304,31 @@ msgstr ""
 msgid "About me"
 msgstr ""
 
-#: personal/templates/layout.html:103 personal/templates/services.html:25
+#: personal/templates/layout.html:103
+msgid "My Certifications"
+msgstr ""
+
+#: personal/templates/layout.html:106 personal/templates/services.html:25
 msgid "Services"
 msgstr ""
 
-#: personal/templates/layout.html:109
+#: personal/templates/layout.html:112
 msgid "Contact"
 msgstr ""
 
-#: personal/templates/layout.html:130
+#: personal/templates/layout.html:133
 msgid "Follow Me"
 msgstr ""
 
-#: personal/templates/layout.html:151
+#: personal/templates/layout.html:154
 msgid "Choose your Language"
 msgstr ""
 
-#: personal/templates/layout.html:152
+#: personal/templates/layout.html:155
 msgid "Feel free to choose another available language"
 msgstr ""
 
-#: personal/templates/layout.html:162
+#: personal/templates/layout.html:165
 msgid "Send"
 msgstr ""
 
@@ -288,10 +338,6 @@ msgstr ""
 
 #: personal/templates/portfolio.html:24
 msgid "My Portfolio"
-msgstr ""
-
-#: personal/templates/portfolio.html:29
-msgid "View All"
 msgstr ""
 
 #: personal/templates/resume.html:24
@@ -355,17 +401,21 @@ msgid "resume"
 msgstr ""
 
 #: personal/urls.py:9
-msgid "services"
+msgid "certifications"
 msgstr ""
 
 #: personal/urls.py:10
-msgid "portfolio"
+msgid "services"
 msgstr ""
 
 #: personal/urls.py:11
+msgid "portfolio"
+msgstr ""
+
+#: personal/urls.py:12
 msgid "contact"
 msgstr ""
 
-#: personal/views.py:40
+#: personal/views.py:45
 msgid "Your message has been sent successfully.We will respond you soon"
 msgstr ""

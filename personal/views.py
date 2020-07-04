@@ -15,6 +15,11 @@ def resume(request):
     context={'rcategories':ResumeCategory.objects.all(),'scategories':SkillCategory.objects.all()}
     return render(request,'resume.html',context)
 
+def certifications(request):
+    certification_categories=CertificationCategory.objects.all
+    context={'certification_categories':certification_categories}
+    return render(request,'certifications.html',context)
+
 def services(request):
     ser=Service.objects.all
     clients=Client.objects.all

@@ -62,3 +62,22 @@ class Customer(models.Model):
     picture=models.URLField(_("picture"))
     job=models.CharField(_("job"), max_length=50)
     comment=models.TextField(_("comment"))
+    
+
+class CertificationCategory(models.Model):
+    name= models.CharField(_("name"), max_length=100,unique=True)
+    slug=models.SlugField(_("slug"),null=True)
+
+    class Meta:
+        verbose_name=_("Categories of certification")
+        
+class Certification(models.Model):
+    name=models.CharField(_("name"), max_length=100,unique=True)
+    slug=models.SlugField(_("slug"),null=True)
+    school=models.CharField(_("school"), max_length=100)
+    picture_branding=models.URLField(_("picture_branding"), max_length=200)
+    picture_certification=models.URLField(_("picture_certification"), max_length=200,null=True)
+    link_certification=models.URLField(_("link_certification"), max_length=200)
+    description=models.TextField(_("description"))
+    CertificationCategory=models.ForeignKey(CertificationCategory, verbose_name=_("Certification Category"), on_delete=models.CASCADE,null=True,related_name='certifications')
+    

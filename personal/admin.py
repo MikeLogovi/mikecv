@@ -54,3 +54,21 @@ class  ImageInline(admin.TabularInline):
 @admin.register(Portfolio)
 class PortfolioAdmin(admin.ModelAdmin):
     inlines=[ImageInline]
+    
+
+class CertificationInline(admin.TabularInline):
+    model = Certification
+    extra = 0
+    fieldsets = (
+        (None, {
+            "fields": (
+                ['name_fr','name_en','school_fr','school_en','description_fr','description_en','picture_branding','picture_certification','link_certification']
+            ),
+        }),
+    )
+    verbose_name="Certification"
+    verbose_name_plural="Certifications"
+    
+@admin.register(CertificationCategory)
+class CertificationAdmin(admin.ModelAdmin):
+    inlines=[CertificationInline]

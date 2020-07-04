@@ -83,9 +83,9 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
         'NAME': 'mikecv',
-        'USERNAME':'mac',
+        'USERNAME':'',
         'PASSWORD':'',
-        'PORT':'5432'
+        'PORT':'5433'
     }
 }
 

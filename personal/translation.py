@@ -32,3 +32,11 @@ class PortfolioTranslationOptions(TranslationOptions):
 @register(Image)
 class ImageTranslationOptions(TranslationOptions):
     fields = ('title','description',)
+    
+@register(CertificationCategory)
+class CertificationCategoryTranslationOptions(TranslationOptions):
+    fields = ('name',)
+
+@register(Certification)
+class CertificationTranslationOptions(TranslationOptions):
+    fields = ('name','slug','school','description')

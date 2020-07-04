@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-03-18 06:35+0100\n"
+"POT-Creation-Date: 2020-07-04 13:51+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
-#: mikecv/urls.py:30
+#: mikecv/urls.py:31
 msgid "admin_staff_mike/"
 msgstr ""
 
@@ -45,7 +45,7 @@ msgstr "Veuillez donnez une adresse e-mail valide"
 
 #: personal/models.py:8 personal/models.py:21 personal/models.py:26
 #: personal/models.py:31 personal/models.py:38 personal/models.py:52
-#: personal/models.py:61
+#: personal/models.py:61 personal/models.py:68 personal/models.py:75
 msgid "name"
 msgstr "Nom"
 
@@ -78,7 +78,7 @@ msgstr "Catégorie de compétence"
 msgid "picture"
 msgstr "photo"
 
-#: personal/models.py:33 personal/models.py:45
+#: personal/models.py:33 personal/models.py:45 personal/models.py:81
 msgid "description"
 msgstr "description"
 
@@ -86,7 +86,7 @@ msgstr "description"
 msgid "Service"
 msgstr "Mes services"
 
-#: personal/models.py:39
+#: personal/models.py:39 personal/models.py:69 personal/models.py:76
 msgid "slug"
 msgstr "slug"
 
@@ -98,7 +98,7 @@ msgstr "titre"
 msgid "appurl"
 msgstr "application url"
 
-#: personal/models.py:48 personal/templates/layout.html:106
+#: personal/models.py:48 personal/templates/layout.html:109
 msgid "Portfolio"
 msgstr "Portfolio"
 
@@ -115,6 +115,36 @@ msgstr "Commentaire"
 #: personal/models.py:63
 msgid "job"
 msgstr ""
+
+#: personal/models.py:72
+#, fuzzy
+#| msgid "Categories of skill"
+msgid "Categories of certification"
+msgstr "Catégories de certifications"
+
+#: personal/models.py:77
+msgid "school"
+msgstr "université"
+
+#: personal/models.py:78
+#, fuzzy
+#| msgid "picture"
+msgid "picture_branding"
+msgstr "photo_de_marque"
+
+#: personal/models.py:79
+msgid "picture_certification"
+msgstr "photo_de_certification"
+
+#: personal/models.py:80
+#, fuzzy
+#| msgid "picture_certification"
+msgid "link_certification"
+msgstr "lien_de_certification"
+
+#: personal/models.py:82
+msgid "Certification Category"
+msgstr "Catégorie de certifications"
 
 #: personal/templates/404.html:32
 msgid "we are sorry, but the page you requested was not found"
@@ -197,6 +227,25 @@ msgstr "Étudiant"
 msgid "hire me"
 msgstr "Contactez moi"
 
+#: personal/templates/certifications.html:23
+msgid "My self-taught works"
+msgstr "Mon apprentissage en autodidacte"
+
+#: personal/templates/certifications.html:24
+#, fuzzy
+#| msgid "My Certifications"
+msgid "Certifications"
+msgstr "Mes certifications"
+
+#: personal/templates/certifications.html:29
+#: personal/templates/portfolio.html:29
+msgid "View All"
+msgstr "Voir tout"
+
+#: personal/templates/certifications.html:52
+msgid "See the certification"
+msgstr "Voir la certification"
+
 #: personal/templates/contact.html:24
 msgid "My Contact"
 msgstr "Mes contacts"
@@ -250,7 +299,14 @@ msgstr ""
 "j'ai vraiment une vie sociale,je suis un leader et la communication est mon "
 "point fort."
 
-#: personal/templates/index.html:32
+#: personal/templates/index.html:33
+msgid ""
+"Currently looking for a job or internship as a Professional Flutter Developer"
+msgstr ""
+"Actuellement à la recherche d'un travail ou stage en tant que Développeur "
+"Flutter Professionnel"
+
+#: personal/templates/index.html:35
 msgid "Download my CV"
 msgstr "Télécharger mon CV"
 
@@ -266,27 +322,31 @@ msgstr "Acceuil"
 msgid "About me"
 msgstr "A propos de moi"
 
-#: personal/templates/layout.html:103 personal/templates/services.html:25
+#: personal/templates/layout.html:103
+msgid "My Certifications"
+msgstr "Mes certifications"
+
+#: personal/templates/layout.html:106 personal/templates/services.html:25
 msgid "Services"
 msgstr "Mes services"
 
-#: personal/templates/layout.html:109
+#: personal/templates/layout.html:112
 msgid "Contact"
 msgstr "Contact"
 
-#: personal/templates/layout.html:130
+#: personal/templates/layout.html:133
 msgid "Follow Me"
 msgstr "Suivez moi"
 
-#: personal/templates/layout.html:151
+#: personal/templates/layout.html:154
 msgid "Choose your Language"
 msgstr "Choisissez votre Langue"
 
-#: personal/templates/layout.html:152
+#: personal/templates/layout.html:155
 msgid "Feel free to choose another available language"
 msgstr "Sentez vous libre de choisir une autre langue parmi celles existantes."
 
-#: personal/templates/layout.html:162
+#: personal/templates/layout.html:165
 msgid "Send"
 msgstr "Envoyez"
 
@@ -297,10 +357,6 @@ msgstr "Mes travaux réalisés"
 #: personal/templates/portfolio.html:24
 msgid "My Portfolio"
 msgstr "Mon portfolio"
-
-#: personal/templates/portfolio.html:29
-msgid "View All"
-msgstr "Voir tout"
 
 #: personal/templates/resume.html:24
 msgid "My Work Experience"
@@ -363,18 +419,22 @@ msgid "resume"
 msgstr "mon-cursus"
 
 #: personal/urls.py:9
+msgid "certifications"
+msgstr "certifications"
+
+#: personal/urls.py:10
 msgid "services"
 msgstr "mes-services"
 
-#: personal/urls.py:10
+#: personal/urls.py:11
 msgid "portfolio"
 msgstr "portfolio"
 
-#: personal/urls.py:11
+#: personal/urls.py:12
 msgid "contact"
 msgstr "contact"
 
-#: personal/views.py:40
+#: personal/views.py:45
 msgid "Your message has been sent successfully.We will respond you soon"
 msgstr "Votre message a été envoyé avec succès.Nous vous répondrons bientôt"
 

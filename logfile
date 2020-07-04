@@ -12,3 +12,31 @@
 2020-05-07 12:59:45.109 CET [2337] FATAL:  database "mikecv" does not exist
 2020-05-07 12:59:54.945 CET [2347] FATAL:  database "mac" does not exist
 2020-05-07 13:01:21.793 CET [2397] FATAL:  database "mac" does not exist
+2020-05-07 15:29:01.467 CET [2079] LOG:  using stale statistics instead of current ones because stats collector is not responding
+2020-05-07 15:29:42.326 CET [2079] LOG:  using stale statistics instead of current ones because stats collector is not responding
+2020-05-07 15:29:45.169 CET [19000] LOG:  using stale statistics instead of current ones because stats collector is not responding
+2020-05-07 15:30:02.559 CET [2079] LOG:  using stale statistics instead of current ones because stats collector is not responding
+2020-05-07 15:30:06.672 CET [19160] LOG:  using stale statistics instead of current ones because stats collector is not responding
+2020-05-07 15:30:17.960 CET [19177] LOG:  using stale statistics instead of current ones because stats collector is not responding
+2020-05-07 15:30:21.614 CET [2079] LOG:  using stale statistics instead of current ones because stats collector is not responding
+2020-05-07 16:05:04.006 CET [2079] LOG:  using stale statistics instead of current ones because stats collector is not responding
+2020-05-07 19:44:20.362 CET [56490] LOG:  using stale statistics instead of current ones because stats collector is not responding
+2020-05-07 19:44:37.358 CET [2079] LOG:  using stale statistics instead of current ones because stats collector is not responding
+2020-05-07 19:44:57.690 CET [2079] LOG:  using stale statistics instead of current ones because stats collector is not responding
+2020-05-07 19:45:06.228 CET [56525] LOG:  using stale statistics instead of current ones because stats collector is not responding
+2020-05-07 20:09:17.840 CET [2079] LOG:  using stale statistics instead of current ones because stats collector is not responding
+2020-05-07 20:11:48.825 CET [63453] LOG:  using stale statistics instead of current ones because stats collector is not responding
+2020-05-07 20:11:56.987 CET [2079] LOG:  using stale statistics instead of current ones because stats collector is not responding
+2020-05-07 20:13:17.885 CET [2079] LOG:  using stale statistics instead of current ones because stats collector is not responding
+2020-05-07 20:13:38.601 CET [2079] LOG:  using stale statistics instead of current ones because stats collector is not responding
+2020-05-07 20:13:41.818 CET [63585] LOG:  using stale statistics instead of current ones because stats collector is not responding
+2020-05-07 20:13:59.388 CET [2079] LOG:  using stale statistics instead of current ones because stats collector is not responding
+2020-05-07 20:14:21.701 CET [63605] LOG:  using stale statistics instead of current ones because stats collector is not responding
+2020-05-07 20:19:08.160 CET [64030] LOG:  using stale statistics instead of current ones because stats collector is not responding
+2020-05-07 20:19:21.888 CET [2079] LOG:  using stale statistics instead of current ones because stats collector is not responding
+2020-05-07 20:20:21.877 CET [2079] LOG:  using stale statistics instead of current ones because stats collector is not responding
+2020-05-07 22:31:14.398 CET [87345] LOG:  using stale statistics instead of current ones because stats collector is not responding
+2020-05-07 22:59:27.993 CET [2074] LOG:  received smart shutdown request
+2020-05-07 22:59:28.098 CET [2074] LOG:  background worker "logical replication launcher" (PID 2081) exited with exit code 1
+2020-05-07 22:59:28.098 CET [2076] LOG:  shutting down
+2020-05-07 22:59:28.375 CET [2074] LOG:  database system is shut down

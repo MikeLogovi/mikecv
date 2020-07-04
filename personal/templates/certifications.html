@@ -1,0 +1,82 @@
+{% extends 'layout.html' %}
+{%load static%}
+{% load i18n %}
+{% block content%}
+<div class="main-container">
+    <!-- About us -->
+    <section class="iq-portfolio wrapper">
+        <div class="container-fluid h-100">
+            <div class="row row-eq-height h-100">
+                <div class="col-md-3 purple-bg">
+                    <div class="iq-objects">
+                        <span class="iq-objects-01">
+                            <img class="img-fluid" src="{% static 'images/01.png' %}" alt="drive">
+                        </span>
+                    </div>
+                </div>
+                <div class="col-md-9 main-content align-self-center">
+                    <div id="boxscroll" class="inner-box">
+                        <div class="iq-plr-40">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="main-title iq-mb-20">
+                                <small>{% trans 'My self-taught works' %}</small>
+                                <h1 class="display-4 iq-tw-8 iq-font-purple">{% trans 'Certifications' %}</h1>
+                            </div>
+                    </div>
+                    <div class="col-md-12">
+                        <div class="isotope-filters">
+                            <button data-filter="" class="active"> {% trans 'View All' %}</button>
+                            {% for certification_category in certification_categories%}
+                                <button data-filter=".{{certification_category.slug}}"> {{certification_category.name}}</button>
+                            {% endfor  %}
+                        </div>
+                    </div>
+                    <div class="col-md-12">
+                        
+                        <div class="isotope popup-gallery full-screen">
+                            {% for certification_category in certification_categories%}
+                            {% for certification in certification_category.certifications.all%}
+                            <div class="grid-item {{certification_category.slug}} graphic-design clearfix">
+                                <div class="portfolio-item clearfix">
+                                    <div class="certification-card">
+                                        
+                                         <a class="popup-img" href="{{certification.picture_branding}}"><div class="brand-image">
+                                            <img style="height:200px;" src="{{certification.picture_branding}}" 
+                                            alt="{{certification.name}}">
+                                         </div>
+                                        </a>
+                                         <div class="content">
+                                             <h3 class="lesson">{{certification.name}} <br> <a class="school" href="https://{{certification.school|lower}}.com" target="_blank">{{certification.school}}</a></h3>
+                                             </h3>
+                                             <p class="description">{{certification.description}}</p>
+                                             <a href="{{certification.link_certification}}" class="pdf-link" target="_blank">{% trans 'See the certification' %}</a>
+                                         </div>
+                                    </div>
+                                    <!--<img style="height:200px;" src="{{certification.picture_branding}}" 
+                                    alt="{{certification.name}}">
+                                    <div class="overlay">
+                                        <h4>{{certification.name}}</h4>
+                                        <span>{{certification.description}}</span>
+                                        <div class="item-link">
+                                            <a class="popup-img" href="{{certification.picture_branding}}"><span class="ti-plus"></span></a>
+                                            <a href="{{certification.link_certification}}" target="_blank"><span class="ti-link"></span></a>
+                                        </div>
+                                    </div>-->
+                                </div>
+                            </div>
+                            {% endfor %}
+                            {% endfor %}
+                        </div>
+                    </div>
+                </div>
+            </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- About Us End -->
+</div>
+
+{% endblock %}
