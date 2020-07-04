@@ -75,6 +75,7 @@ class Certification(models.Model):
     name=models.CharField(_("name"), max_length=100,unique=True)
     slug=models.SlugField(_("slug"),null=True)
     school=models.CharField(_("school"), max_length=100)
+    school_url=models.CharField(_("school_url"), max_length=100,null=True)
     picture_branding=models.URLField(_("picture_branding"), max_length=200)
     picture_certification=models.URLField(_("picture_certification"), max_length=200,null=True)
     link_certification=models.URLField(_("link_certification"), max_length=200)
