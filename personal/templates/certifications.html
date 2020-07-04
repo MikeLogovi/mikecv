@@ -47,7 +47,7 @@
                                          </div>
                                         </a>
                                          <div class="content">
-                                             <h3 class="lesson">{{certification.name}} <br> <a class="school" href="https://{{certification.school|lower}}.com" target="_blank">{{certification.school}}</a></h3>
+                                             <h3 class="lesson">{{certification.name}} <br> <a class="school" href="{{ certification.school_url }}" target="_blank">{{certification.school}}</a></h3>
                                              </h3>
                                              <p class="description">{{certification.description}}</p>
                                              <a href="{{certification.link_certification}}" class="pdf-link" target="_blank">{% trans 'See the certification' %}</a>
