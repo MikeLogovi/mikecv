@@ -645,3 +645,53 @@ footer .follow-us { padding: 10px 50px 10px 0; }
 .iq-comment-list .iq-comment-metadata i { padding-right: 7px; color: #2ecc71; }
 .iq-comment-list .reply { position: absolute; line-height: 22px; margin: 0; padding: 2px 16px; font-size: 11px; right: 0; top: 0; font-weight: 500; }
 .iq-comment-list .reply:hover { color: #fff; }
+
+
+/*BAND NOTIFICATION FOR JOB*/
+.job-notification{
+  margin-top:20px;
+  font-size:30px;
+  font-weight:bold;
+  color:#2ecc71;
+  line-height: 30px;
+}
+
+/* CERTIFICATION CARD DESIGN */
+.certification-card {
+  border:1px solid #2ecc71;
+  box-shadow: 0px 0px 30px red!important;
+  position:relative;
+}
+.certification-card .content{
+  padding:5px;
+}
+.certification-card .content  .pdf-link{
+ 
+  position:absolute;
+  bottom:10px;
+  right:10px;
+  display:inline-block;
+  color:white;
+  background-color:#2ecc71 ;
+  padding:10px;
+}
+.certification-card .lesson{
+  font-weight: bold;
+  font-family: 'Lato', sans-serif;
+  color:#2ecc71;
+  font-size:16px;
+}
+.certification-card .school{
+  text-decoration: underline;
+  font-weight: bold;
+  font-family: 'Lato', sans-serif;
+  color:red;
+}
+.certification-card .content h3{
+  margin-bottom:10px;
+}
+.certification-card .content .description{
+  text-align:justify;
+  color:#263238;
+  margin-bottom:70px;
+}
