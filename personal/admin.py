@@ -62,7 +62,7 @@ class CertificationInline(admin.TabularInline):
     fieldsets = (
         (None, {
             "fields": (
-                ['name_fr','name_en','school_fr','school_en','description_fr','description_en','picture_branding','picture_certification','link_certification']
+                ['name_fr','name_en','school_fr','school_en','school_url','description_fr','description_en','picture_branding','picture_certification','link_certification']
             ),
         }),
     )
