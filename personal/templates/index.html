@@ -2,6 +2,7 @@
 {% load static %}
 {% load i18n %}
 {% block content %}
+{% get_current_language as LANGUAGE_CODE %}
 <div class="main-container">
     <!-- About us -->
     <section class="me-home wrapper">
@@ -30,9 +31,9 @@
                                         {% trans 'Autonomous, self-taught and disciplined; perseverance is what I share every day.Passionate and open, I love programming and thanks to it I can express all my feelings.I also have a social life. I am a leader and communication is my strongest point.' %}
                                     </p>
                                     <p class="job-notification">
-                                        {% trans 'Currently looking for a job or internship as a Professional Flutter Developer' %}
+                                        {% trans 'Currently looking for a job or internship as a Professional Fullstack web developer' %}
                                     </p>
-                                    <a class="button iq-mt-30" href="https://www.dropbox.com/s/0v4h4uabgi7f4e7/T%C3%A9t%C3%A9%20Elom%20Mike%20Norbert%20LOGOVI%20CV.pdf?dl=1" target="_blank">{% trans 'Download my CV'%}</a>
+                                    <a class="button iq-mt-30" href="{% if LANGUAGE_CODE == 'en' %}https://www.dropbox.com/s/0z1od4xrxjrsud1/T%C3%A9t%C3%A9%20Elom%20Mike%20Norbert%20LOGOVI%20FULLSTACK_WEB_DEVELOPER__ENGLISH%20VERSION.pdf?dl=1 {% else %} https://www.dropbox.com/s/547mvhnxa0jr3zo/T%C3%A9t%C3%A9%20Elom%20Mike%20Norbert%20LOGOVI%20CV_DEVELOPPEUR%20WEB%20FULLSTACK_VERSION%20FRANCAISE.pdf?dl=1{% endif %}" target="_blank">{% trans 'Download my CV'%}</a>
                                 </div>
                             </div>
                         </div>

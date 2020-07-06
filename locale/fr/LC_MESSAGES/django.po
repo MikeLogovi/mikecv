@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-07-04 13:51+0000\n"
+"POT-Creation-Date: 2020-07-06 18:54+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -78,7 +78,7 @@ msgstr "Catégorie de compétence"
 msgid "picture"
 msgstr "photo"
 
-#: personal/models.py:33 personal/models.py:45 personal/models.py:81
+#: personal/models.py:33 personal/models.py:45 personal/models.py:82
 msgid "description"
 msgstr "description"
 
@@ -128,21 +128,27 @@ msgstr "université"
 
 #: personal/models.py:78
 #, fuzzy
+#| msgid "school"
+msgid "school_url"
+msgstr "université"
+
+#: personal/models.py:79
+#, fuzzy
 #| msgid "picture"
 msgid "picture_branding"
 msgstr "photo_de_marque"
 
-#: personal/models.py:79
+#: personal/models.py:80
 msgid "picture_certification"
 msgstr "photo_de_certification"
 
-#: personal/models.py:80
+#: personal/models.py:81
 #, fuzzy
 #| msgid "picture_certification"
 msgid "link_certification"
 msgstr "lien_de_certification"
 
-#: personal/models.py:82
+#: personal/models.py:83
 msgid "Certification Category"
 msgstr "Catégorie de certifications"
 
@@ -242,7 +248,7 @@ msgstr "Mes certifications"
 msgid "View All"
 msgstr "Voir tout"
 
-#: personal/templates/certifications.html:52
+#: personal/templates/certifications.html:53
 msgid "See the certification"
 msgstr "Voir la certification"
 
@@ -278,15 +284,15 @@ msgstr "Message"
 msgid "Send Message"
 msgstr "Envoyez Message"
 
-#: personal/templates/index.html:27
+#: personal/templates/index.html:28
 msgid "Hello"
 msgstr "Salut"
 
-#: personal/templates/index.html:27
+#: personal/templates/index.html:28
 msgid "I am Mike LOGOVI"
 msgstr "Je m'appelle Mike LOGOVI"
 
-#: personal/templates/index.html:30
+#: personal/templates/index.html:31
 msgid ""
 "Autonomous, self-taught and disciplined; perseverance is what I share every "
 "day.Passionate and open, I love programming and thanks to it I can express "
@@ -299,14 +305,16 @@ msgstr ""
 "j'ai vraiment une vie sociale,je suis un leader et la communication est mon "
 "point fort."
 
-#: personal/templates/index.html:33
+#: personal/templates/index.html:34
+
 msgid ""
-"Currently looking for a job or internship as a Professional Flutter Developer"
+"Currently looking for a job or internship as a Professional Fullstack web "
+"developer"
 msgstr ""
 "Actuellement à la recherche d'un travail ou stage en tant que Développeur "
-"Flutter Professionnel"
+"Web Fullstack professionnel"
 
-#: personal/templates/index.html:35
+#: personal/templates/index.html:36
 msgid "Download my CV"
 msgstr "Télécharger mon CV"
 
