@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-07-06 18:54+0000\n"
+"POT-Creation-Date: 2020-07-11 17:03+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -23,7 +23,7 @@ msgid "admin_staff_mike/"
 msgstr ""
 
 #: personal/admin.py:18 personal/templates/about.html:44
-#: personal/templates/layout.html:100 personal/templates/resume.html:25
+#: personal/templates/layout.html:101 personal/templates/resume.html:25
 msgid "Resume"
 msgstr ""
 
@@ -98,7 +98,7 @@ msgstr ""
 msgid "appurl"
 msgstr ""
 
-#: personal/models.py:48 personal/templates/layout.html:109
+#: personal/models.py:48 personal/templates/layout.html:110
 msgid "Portfolio"
 msgstr ""
 
@@ -283,14 +283,14 @@ msgstr ""
 msgid ""
 "Autonomous, self-taught and disciplined; perseverance is what I share every "
 "day.Passionate and open, I love programming and thanks to it I can express "
-"all my feelings.I also have a social life. I am a leader and communication "
-"is my strongest point."
+"all my ideas.I also have a social life. I am a leader and communication is "
+"my strongest point."
 msgstr ""
 
 #: personal/templates/index.html:34
 msgid ""
-"Currently looking for a job or internship as a Professional Fullstack web "
-"developer"
+"Currently looking for a job OR INTERNSHIP as a fullstack web developer or "
+"MOBILE DEVELOPER"
 msgstr ""
 
 #: personal/templates/index.html:36
@@ -301,39 +301,39 @@ msgstr ""
 msgid "My website for cv and portfolio of projects"
 msgstr ""
 
-#: personal/templates/layout.html:94
+#: personal/templates/layout.html:95
 msgid "Home"
 msgstr ""
 
-#: personal/templates/layout.html:97
+#: personal/templates/layout.html:98
 msgid "About me"
 msgstr ""
 
-#: personal/templates/layout.html:103
+#: personal/templates/layout.html:104
 msgid "My Certifications"
 msgstr ""
 
-#: personal/templates/layout.html:106 personal/templates/services.html:25
+#: personal/templates/layout.html:107 personal/templates/services.html:25
 msgid "Services"
 msgstr ""
 
-#: personal/templates/layout.html:112
+#: personal/templates/layout.html:113
 msgid "Contact"
 msgstr ""
 
-#: personal/templates/layout.html:133
+#: personal/templates/layout.html:134
 msgid "Follow Me"
 msgstr ""
 
-#: personal/templates/layout.html:154
+#: personal/templates/layout.html:155
 msgid "Choose your Language"
 msgstr ""
 
-#: personal/templates/layout.html:155
+#: personal/templates/layout.html:156
 msgid "Feel free to choose another available language"
 msgstr ""
 
-#: personal/templates/layout.html:165
+#: personal/templates/layout.html:166
 msgid "Send"
 msgstr ""
 

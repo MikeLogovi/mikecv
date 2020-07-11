@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-07-06 18:54+0000\n"
+"POT-Creation-Date: 2020-07-11 17:03+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -23,7 +23,7 @@ msgid "admin_staff_mike/"
 msgstr ""
 
 #: personal/admin.py:18 personal/templates/about.html:44
-#: personal/templates/layout.html:100 personal/templates/resume.html:25
+#: personal/templates/layout.html:101 personal/templates/resume.html:25
 msgid "Resume"
 msgstr "Mon cursus"
 
@@ -98,7 +98,7 @@ msgstr "titre"
 msgid "appurl"
 msgstr "application url"
 
-#: personal/models.py:48 personal/templates/layout.html:109
+#: personal/models.py:48 personal/templates/layout.html:110
 msgid "Portfolio"
 msgstr "Portfolio"
 
@@ -296,23 +296,22 @@ msgstr "Je m'appelle Mike LOGOVI"
 msgid ""
 "Autonomous, self-taught and disciplined; perseverance is what I share every "
 "day.Passionate and open, I love programming and thanks to it I can express "
-"all my feelings.I also have a social life. I am a leader and communication "
-"is my strongest point."
+"all my ideas.I also have a social life. I am a leader and communication is "
+"my strongest point."
 msgstr ""
 "Autonome,autodidacte et discipliné,la persévérance est mon partage de tous "
 "les jours. Passionné et ouvert ,j'aime beaucoup la programmation et grâce à "
-"elle je peux exprimer toutes mes expressions.Loin d'être quand même un geek,"
-"j'ai vraiment une vie sociale,je suis un leader et la communication est mon "
+"elle je peux exprimer toutes mes idées"
+"J'ai vraiment une vie sociale,je suis un leader et la communication est mon "
 "point fort."
 
 #: personal/templates/index.html:34
-
 msgid ""
-"Currently looking for a job or internship as a Professional Fullstack web "
-"developer"
+"Currently looking for a job OR INTERNSHIP as a fullstack web developer or "
+"MOBILE DEVELOPER"
 msgstr ""
 "Actuellement à la recherche d'un travail ou stage en tant que Développeur "
-"Web Fullstack professionnel"
+"Web Fullstack ou mobile"
 
 #: personal/templates/index.html:36
 msgid "Download my CV"
@@ -322,39 +321,39 @@ msgstr "Télécharger mon CV"
 msgid "My website for cv and portfolio of projects"
 msgstr "Mon site web pour cv et portfolio de projets."
 
-#: personal/templates/layout.html:94
+#: personal/templates/layout.html:95
 msgid "Home"
 msgstr "Acceuil"
 
-#: personal/templates/layout.html:97
+#: personal/templates/layout.html:98
 msgid "About me"
 msgstr "A propos de moi"
 
-#: personal/templates/layout.html:103
+#: personal/templates/layout.html:104
 msgid "My Certifications"
 msgstr "Mes certifications"
 
-#: personal/templates/layout.html:106 personal/templates/services.html:25
+#: personal/templates/layout.html:107 personal/templates/services.html:25
 msgid "Services"
 msgstr "Mes services"
 
-#: personal/templates/layout.html:112
+#: personal/templates/layout.html:113
 msgid "Contact"
 msgstr "Contact"
 
-#: personal/templates/layout.html:133
+#: personal/templates/layout.html:134
 msgid "Follow Me"
 msgstr "Suivez moi"
 
-#: personal/templates/layout.html:154
+#: personal/templates/layout.html:155
 msgid "Choose your Language"
 msgstr "Choisissez votre Langue"
 
-#: personal/templates/layout.html:155
+#: personal/templates/layout.html:156
 msgid "Feel free to choose another available language"
 msgstr "Sentez vous libre de choisir une autre langue parmi celles existantes."
 
-#: personal/templates/layout.html:165
+#: personal/templates/layout.html:166
 msgid "Send"
 msgstr "Envoyez"
 
