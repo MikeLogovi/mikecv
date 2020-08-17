@@ -702,5 +702,6 @@ footer .follow-us { padding: 10px 50px 10px 0; }
 }
 .my-description{
    color:#263238!important;
-   font-size:22px!important;
+   font-size:18px!important;
+   text-align:justify!important;
 }
