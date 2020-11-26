@@ -144,7 +144,7 @@ if os.getcwd() == '/app':
     SECURE_PROXY_SSL_HEADER = ('HTTP_X_FORWARDED_PROTO', 'https')
 
     #Allow all host headers
-    ALLOWED_HOSTS = ['mikelogovi.herokuapp.com']
+    ALLOWED_HOSTS = ['mikelogovi.herokuapp.com','www.mikelogovi.com','mikelogovi.com']
     DEBUG = False
 
 else:
