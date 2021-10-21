@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-12-04 18:30+0100\n"
+"POT-Creation-Date: 2021-10-21 10:38-0400\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -293,18 +293,40 @@ msgid "I am Mike LOGOVI"
 msgstr "Je m'appelle Mike LOGOVI"
 
 #: personal/templates/index.html:31
+#, fuzzy
+#| msgid ""
+#| "I am autonomous, self-taught and disciplined.Perseverance is what I share "
+#| "every day.Passionate and open, I love programming and thanks to it I can "
+#| "express all my ideas.I also have a social life. I am a leader and "
+#| "communication is my strongest point. I have earned in 2017 a scholarship "
+#| "from my country Togo for being amoung the best student in baccalaureate "
+#| "in 2016.Actually in third year of computer science in University of "
+#| "Algiers 1 Benyoucef Benkhedda , I am always the promotion major each year "
+#| "since the first year of my program. During my program, I also use to "
+#| "share my knowledge to people around the world through my youtube channel "
+#| "named Dresseur de Code."
 msgid ""
-"I am autonomous, self-taught and disciplined.Perseverance is what I share "
-"every day.Passionate and open, I love programming and thanks to it I can "
-"express all my ideas.I also have a social life. I am a leader and "
+"I am autonomous, self-taught and disciplined. Perseverance is what I share "
+"every day. Passionate and open, I love programming and thanks to it I can "
+"express all my ideas. I also have a social life. I am a leader and "
 "communication is my strongest point. I have earned in 2017 a scholarship "
 "from my country Togo for being amoung the best student in baccalaureate in "
-"2016.Actually in third year of computer science in University of Algiers 1 "
-"Benyoucef Benkhedda , I am always the promotion major each year since the "
-"first year of my program. During my program, I also use to share my "
-"knowledge to people around the world through my youtube channel named "
-"Dresseur de Code."
-msgstr "Je suis autonome, autodidacte et discipliné.La persévérance est ce que je partage tous les jours.Passionné et ouvert, j'aime programmer et grâce à cela je peux exprimer toutes mes idées.j'ai aussi une vie sociale. Je suis un leader et la communication est mon point fort. J'ai obtenu en 2017 une bourse de mon pays le Togo pour avoir été le meilleur élève au baccalauréat en 2016. Actuellement en troisième année d'informatique à l'Université d'Alger 1 Benyoucef Benkhedda, je suis toujours le major de promotion chaque année depuis la première année de mon programme. Pendant mon programme, j'ai l'habitude de  partager mes connaissances avec les gens à travers le monde à travers ma chaîne youtube nommée Dresseur de Code"
+"2016 in order to study computer Science at University of Algiers 1. Actually "
+"I have my Licence with honors and I have already started my Master in "
+"Computer Science at University Laval in Canada. During my program, I also "
+"use to share my knowledge to people around the world through my youtube "
+"channel named Dresseur de Code."
+msgstr ""
+"Je suis autonome, autodidacte et discipliné.La persévérance est ce que je "
+"partage au quotidien.Passionné et ouvert, j'aime la programmation et grâce à "
+"elle, je peux exprimer toutes mes idées.J'ai également une vie sociale. Je "
+"suis un leader et la communication est mon point fort.J'ai obtenu en 2017 "
+"une bourse de mon pays le Togo pour avoir été parmi les meilleurs élèves au "
+"baccalauréaten 2016 afin d'étudier l'informatique à l'Université d'Alger 1."
+"Actuellement j'ai ma Licence avec mention Très Bien, major de promotion et "
+"j'ai déjà commencé mon Master en informatique à l'Université Laval au Canada."
+"Pendant mon programme, j'ai aussi l'habitude de partager mes connaissances "
+"aux gens du monde entier à travers ma chaîne youtube nommée Dresseur de Code."
 
 #: personal/templates/index.html:34
 msgid ""
@@ -445,6 +467,26 @@ msgstr "contact"
 #: personal/views.py:45
 msgid "Your message has been sent successfully.We will respond you soon"
 msgstr "Votre message a été envoyé avec succès.Nous vous répondrons bientôt"
+
+#: src/django-easymode/example/foobar/models.py:10
+msgid "An animal that produces milk"
+msgstr ""
+
+#: src/django-easymode/example/foobar/models.py:11
+msgid "A unit used to measure car engine power"
+msgstr ""
+
+#: src/django-easymode/example/settings.py:45
+msgid "English"
+msgstr ""
+
+#: src/django-easymode/example/settings.py:46
+msgid "German"
+msgstr ""
+
+#: src/django-easymode/example/settings.py:47
+msgid "usa"
+msgstr ""
 
 #~ msgid "/"
 #~ msgstr "administration_staff_mike"
